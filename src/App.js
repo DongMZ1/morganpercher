@@ -19,12 +19,13 @@ function App() {
   useEffect(
     ()=>{
       AOS.init({duration: 1000});
-    }
-  )
+      setTimeout(()=>{AOS.refresh();}, 7000);
+    },[]
+  );
   return (
     <>
     <Nav />
-    <Presentation />
+      <Presentation />
     <PressRelation />
     <Communication />
     <WritingOrgan />

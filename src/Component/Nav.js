@@ -29,7 +29,7 @@ const Nav = () =>{
             setshowicon('none');
             }
     }, [innerWidth]);
-   return <div className='navb' data-aos="fade-down">
+   return <div className='navb'>
        <div onClick={shownavicon} className="navbmenu">Menu</div>
 
        <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none'}} to='presentation' spy={true} smooth={true} duration={100}>
