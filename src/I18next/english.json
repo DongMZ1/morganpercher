@@ -1,4 +1,5 @@
-{
+{       
+    "nav":{
          "item1": "Presentation",
          "item2": "Press Relation",
          "item3": "Communication Media",
@@ -6,5 +7,6 @@
          "item5": "event",
          "item6": "Professional experiences",
          "item7": "Education"
+    }
 
 }

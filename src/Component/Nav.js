@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 
 const Nav = () =>{
     const [showicon, setshowicon] = useState('inline');
-    const [t, i18n ] = useTranslation();
+    const [translate, i18n ] = useTranslation();
     const {innerWidth, innerHeight, outerHeight, outerWidth } = useWindowSize();
 
     const shownavicon = () =>{
@@ -19,7 +19,11 @@ const Nav = () =>{
     }
 
     const changelang = () =>{
-        i18n.changeLanguage('fr');
+        if(i18n.language == 'fr'){
+        i18n.changeLanguage('en');
+        }else{
+            i18n.changeLanguage('fr'); 
+        }
     }
     useEffect(() => {
         if(innerWidth > 750){
@@ -32,36 +36,35 @@ const Nav = () =>{
 
    return <div className='navb' data-aos="fade-right">
        <div onClick={shownavicon} className="navbmenu">Menu</div>
-
-       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='presentation' spy={true} smooth={true} duration={100}>
-       presentation part
+       <Link className="link_bordergrow" style={{width:'110px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='presentation' spy={true} smooth={true} duration={100}>
+       {translate("nav.item1")}
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'160px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='pressrelation' spy={true} smooth={true} duration={100}>
-       Press relations
+       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='pressrelation' spy={true} smooth={true} duration={100}>
+       {translate("nav.item2")}
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'200px', display: `${showicon}`, textDecoration:'none', color:'white' }} to='communication' spy={true} smooth={true} duration={100}>
-       Communication Media
+       <Link className="link_bordergrow" style={{width:'220px', display: `${showicon}`, textDecoration:'none', color:'white' }} to='communication' spy={true} smooth={true} duration={100}>
+       {translate("nav.item3")}
        </Link>
 
        <Link className="link_bordergrow" style={{width:'100px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='writingorgan' spy={true} smooth={true} duration={100}>
-       Writing
+       {translate("nav.item4")}
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='event' spy={true} smooth={true} duration={100}>
-           Event
+       <Link className="link_bordergrow" style={{width:'200px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='event' spy={true} smooth={true} duration={100}>
+       {translate("nav.item5")}
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'210px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='prefessional' spy={true} smooth={true} duration={100}>
-           Professional experiences
+       <Link className="link_bordergrow" style={{width:'220px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='prefessional' spy={true} smooth={true} duration={100}>
+       {translate("nav.item6")}
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='education' spy={true} smooth={true} duration={100}>
-        Education
+       <Link className="link_bordergrow" style={{width:'100px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='education' spy={true} smooth={true} duration={100}>
+       {translate("nav.item7")}
        </Link>
 
-       <SiGoogletranslate style={{display: `${showicon}`}} className='translator' fontSize='35px' />
+       <SiGoogletranslate onClick={changelang} style={{display: `${showicon}`}} className='translator' fontSize='35px' />
    </div>
 
 }

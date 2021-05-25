@@ -1,4 +1,5 @@
 {
+    "nav":{
          "item1": "Présentation",
          "item2": "Relations presse",
          "item3": "Supports de communication",
@@ -6,4 +7,5 @@
          "item5": "Organisation d'évènements",
          "item6": "Expériences professionnelles",
          "item7": "Formation"
+    }
 }
