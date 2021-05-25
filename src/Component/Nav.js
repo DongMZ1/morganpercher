@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 
 const Nav = () =>{
     const [showicon, setshowicon] = useState('inline');
-    const { t, i18n } = useTranslation();
+    const [t, i18n ] = useTranslation();
     const {innerWidth, innerHeight, outerHeight, outerWidth } = useWindowSize();
 
     const shownavicon = () =>{
@@ -33,7 +33,7 @@ const Nav = () =>{
        <div onClick={shownavicon} className="navbmenu">Menu</div>
 
        <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none'}} to='presentation' spy={true} smooth={true} duration={100}>
-       {t("navitem1")}
+       presentation part
        </Link>
 
        <Link className="link_bordergrow" style={{width:'160px', display: `${showicon}`, textDecoration:'none'}} to='pressrelation' spy={true} smooth={true} duration={100}>
