@@ -2,7 +2,7 @@ import React from 'react'
 import '../SCSS/main.scss'
 
 const Footer = () =>{
-    return<div className='footer'>
+    return<div className='footer' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
        <h7>morgan.percher@gmail.com</h7>
        <h7>514-231-3140</h7>
        <h7>Montréal</h7>

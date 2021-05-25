@@ -29,34 +29,35 @@ const Nav = () =>{
             setshowicon('none');
             }
     }, [innerWidth]);
-   return <div className='navb'>
+
+   return <div className='navb' data-aos="fade-right">
        <div onClick={shownavicon} className="navbmenu">Menu</div>
 
-       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none'}} to='presentation' spy={true} smooth={true} duration={100}>
+       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='presentation' spy={true} smooth={true} duration={100}>
        presentation part
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'160px', display: `${showicon}`, textDecoration:'none'}} to='pressrelation' spy={true} smooth={true} duration={100}>
+       <Link className="link_bordergrow" style={{width:'160px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='pressrelation' spy={true} smooth={true} duration={100}>
        Press relations
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'200px', display: `${showicon}`, textDecoration:'none' }} to='communication' spy={true} smooth={true} duration={100}>
+       <Link className="link_bordergrow" style={{width:'200px', display: `${showicon}`, textDecoration:'none', color:'white' }} to='communication' spy={true} smooth={true} duration={100}>
        Communication Media
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'100px', display: `${showicon}`, textDecoration:'none'}} to='writingorgan' spy={true} smooth={true} duration={100}>
+       <Link className="link_bordergrow" style={{width:'100px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='writingorgan' spy={true} smooth={true} duration={100}>
        Writing
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none'}} to='event' spy={true} smooth={true} duration={100}>
+       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='event' spy={true} smooth={true} duration={100}>
            Event
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'210px', display: `${showicon}`, textDecoration:'none'}} to='prefessional' spy={true} smooth={true} duration={100}>
+       <Link className="link_bordergrow" style={{width:'210px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='prefessional' spy={true} smooth={true} duration={100}>
            Professional experiences
        </Link>
 
-       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none'}} to='education' spy={true} smooth={true} duration={100}>
+       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='education' spy={true} smooth={true} duration={100}>
         Education
        </Link>
 
