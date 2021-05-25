@@ -3,9 +3,11 @@ import '../SCSS/main.scss'
 import {SiGoogletranslate} from 'react-icons/si'
 import useWindowSize from "@rooks/use-window-size"
 import {Link} from 'react-scroll'
+import { useTranslation } from 'react-i18next';
 
 const Nav = () =>{
     const [showicon, setshowicon] = useState('inline');
+    const { t, i18n } = useTranslation();
     const {innerWidth, innerHeight, outerHeight, outerWidth } = useWindowSize();
 
     const shownavicon = () =>{
@@ -14,6 +16,10 @@ const Nav = () =>{
         }else{
             setshowicon('none');
         }
+    }
+
+    const changelang = () =>{
+        i18n.changeLanguage('fr');
     }
     useEffect(() => {
         if(innerWidth > 750){
@@ -27,7 +33,7 @@ const Nav = () =>{
        <div onClick={shownavicon} className="navbmenu">Menu</div>
 
        <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none'}} to='presentation' spy={true} smooth={true} duration={100}>
-       Presentation
+       {t("navitem1")}
        </Link>
 
        <Link className="link_bordergrow" style={{width:'160px', display: `${showicon}`, textDecoration:'none'}} to='pressrelation' spy={true} smooth={true} duration={100}>
