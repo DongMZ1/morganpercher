@@ -41,15 +41,19 @@ const Nav = () =>{
        <Link className="link_bordergrow" style={{width:'100px', display: `${showicon}`, textDecoration:'none'}} to='writingorgan' spy={true} smooth={true} duration={100}>
        Writing
        </Link>
-       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none'}} to='education' spy={true} smooth={true} duration={100}>
+
+       <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none'}} to='event' spy={true} smooth={true} duration={100}>
            Event
        </Link>
+
        <Link className="link_bordergrow" style={{width:'210px', display: `${showicon}`, textDecoration:'none'}} to='prefessional' spy={true} smooth={true} duration={100}>
            Professional experiences
        </Link>
+
        <Link className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none'}} to='education' spy={true} smooth={true} duration={100}>
         Education
        </Link>
+
        <SiGoogletranslate style={{display: `${showicon}`}} className='translator' fontSize='35px' />
    </div>
 

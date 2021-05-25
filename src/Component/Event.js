@@ -1,7 +1,7 @@
 import React from 'react'
 import '../SCSS/main.scss'
 const Event = () =>{
-    return<div className='footer'>
+    return<div className='event' id='event'>
        <h7>event!</h7>
     </div>
 }

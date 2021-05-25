@@ -10,6 +10,7 @@ import PressRelation from './Component/PressRelation'
 import Professional from './Component/Professional'
 import WritingOrgan from './Component/Writing'
 import Footer from './Component/Footer'
+import Event from './Component/Event'
 
 import "aos/dist/aos.css";
 import AOS from 'aos';
@@ -27,6 +28,7 @@ function App() {
     <PressRelation />
     <Communication />
     <WritingOrgan />
+    <Event />
     <Professional />
     <Education />
     <Footer />
