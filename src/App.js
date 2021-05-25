@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import React, {useEffect, useState} from 'react'
 import './App.css';
+import './SCSS/main.scss'
+//component
+import Nav from './Component/Nav'
+import Communication from './Component/Communication'
+import Education from './Component/Education'
+import Presentation from './Component/Presentation'
+import PressRelation from './Component/PressRelation'
+import Professional from './Component/Professional'
+import WritingOrgan from './Component/Writing'
+import Footer from './Component/Footer'
+
+import "aos/dist/aos.css";
+import AOS from 'aos';
 
 function App() {
+  useEffect(
+    ()=>{
+      AOS.init({duration: 1000});
+    }
+  )
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Nav />
+    <Presentation />
+    <PressRelation />
+    <Communication />
+    <WritingOrgan />
+    <Professional />
+    <Education />
+    <Footer />
+    </>
   );
 }
 

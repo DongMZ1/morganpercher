@@ -1,0 +1,136 @@
+@import "_button.scss";
+@import "_card.scss";
+@import "_navitem.scss";
+@import 'presentation.scss';
+@import 'communication.scss';
+@import 'education.scss';
+@import 'pressrelation.scss';
+@import 'writingorgan.scss';
+@import 'prefessional.scss';
+@import 'footer.scss';
+
+div {
+    padding: 1rem;
+}
+body{
+    width: 100%;
+    background-color: #fffffe;
+    box-shadow: inset 1px 1px 10px 5px rgb(197, 213, 248); 
+}
+
+.navb{
+    position: fixed;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    .navbmenu{
+        display: none;
+        cursor: pointer;
+        background-color: white;
+        border: 2px solid black;
+        width: 100px;
+        height: 50px;
+    }
+    & >*{
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    @media (max-width: 1350px) {
+        .navbmenu{
+            cursor: pointer;
+            display: none;
+        }
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(3, 1fr);
+        position: fixed;
+    }
+
+    @media (max-width: 750px) {
+        .navbmenu{
+            cursor: pointer;
+            display: inline;
+        }
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        position: fixed;
+    }
+    @media (max-width: 500px) {
+        .navbmenu{
+            cursor: pointer;
+            display: inline;
+        }
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        position: fixed;
+    }
+    @keyframes movetranslator {
+        0%{
+            transform: translateY(0%);
+        }
+        30%{
+            transform: translateY(50%);
+        }
+        60%{
+            transform: translateY(-20%);
+        }
+        100%{
+            transform: translateY(0%);
+        }
+    }
+
+    font-family: "Akaya Kanadaka", sans-serif;
+    .translator{
+        margin-left: auto;
+        cursor: pointer;
+        color: #8cb6ec;
+        @media (max-width: 1250px) {
+            margin-left: 10px;
+        }
+        &:hover{
+            content: 'French';
+            color: blue;
+            animation: movetranslator 0.5s 1;
+        }
+    }
+}
+
+
+
+.contact{
+    @keyframes moveupsidedown {
+        0%, 50%, 100% {
+          transform: translateY(0);
+        }
+        25%{
+            transform: translateY(10%); 
+        }
+        75% {
+            transform: translateY(-10%);
+        }
+      }
+    
+    padding: 5vw 15vw;
+    .icon{
+        cursor: pointer;
+        font-size: 4rem;
+        transition: all;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s;
+        &:hover{
+            color: blue;
+            animation: moveupsidedown 0.1s infinite;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+
+
+
+
