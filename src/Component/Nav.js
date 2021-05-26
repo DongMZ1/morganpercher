@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import '../SCSS/main.scss'
 import {SiGoogletranslate} from 'react-icons/si'
+import {AiOutlineLinkedin} from 'react-icons/ai'
 import useWindowSize from "@rooks/use-window-size"
 import {Link} from 'react-scroll'
 import { useTranslation } from 'react-i18next';
@@ -69,7 +70,7 @@ const Nav = () =>{
        <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'100px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='education' spy={true} smooth={true} duration={100}>
        {translate("nav.item7")}
        </Link>
-
+       <a href='https://www.linkedin.com/in/morgan-percher-b78190170/'><AiOutlineLinkedin style={{display: `${showicon}`}} className='linkedinicon' fontSize='35px' /></a>
        <SiGoogletranslate onClick={changelang} style={{display: `${showicon}`}} className='translator' fontSize='35px' />
    </div>
 

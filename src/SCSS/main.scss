@@ -88,7 +88,6 @@ body{
 
     font-family: "Caveat", sans-serif;
     .translator{
-        margin-left: auto;
         cursor: pointer;
         color: #8cb6ec;
         @media (max-width: 1250px) {
@@ -96,6 +95,14 @@ body{
         }
         &:hover{
             content: 'French';
+            color: blue;
+            animation: movetranslator 0.5s 1;
+        }
+    }
+    .linkedinicon{
+        cursor: pointer;
+        color: #8cb6ec;
+        &:hover{
             color: blue;
             animation: movetranslator 0.5s 1;
         }
