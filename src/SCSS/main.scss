@@ -19,7 +19,7 @@ body{
 
 .navb{
     top: 0px;
-    z-index: 99999;
+    z-index: 1;
     position: fixed;
     height: 100px;
     align-items: center;
@@ -89,7 +89,7 @@ body{
 
     font-family: "Caveat", sans-serif;
     .translator{
-        cursor: pointer;
+        //cursor: pointer;
         color: #8cb6ec;
         @media (max-width: 1250px) {
             margin-left: 10px;
@@ -101,7 +101,7 @@ body{
         }
     }
     .linkedinicon{
-        cursor: pointer;
+        //cursor: pointer;
         color: #8cb6ec;
         &:hover{
             color: blue;

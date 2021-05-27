@@ -41,7 +41,7 @@ const Nav = () =>{
         }
     }
 
-   return <div className='navb' data-aos="fade-right">
+   return <div className='navb' data-aos="fade-down">
        <div onClick={shownavicon} className="navbmenu">Menu</div>
        <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'110px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='presentation' spy={true} smooth={true} duration={100}>
        {translate("nav.item1")}
@@ -71,7 +71,7 @@ const Nav = () =>{
        {translate("nav.item7")}
        </Link>
        <a href='https://www.linkedin.com/in/morgan-percher-b78190170/'><AiOutlineLinkedin style={{display: `${showicon}`}} className='linkedinicon' fontSize='35px' /></a>
-       <SiGoogletranslate onClick={changelang} style={{display: `${showicon}`}} className='translator' fontSize='35px' />
+       <a><SiGoogletranslate onClick={changelang} style={{display: `${showicon}`}} className='translator' fontSize='35px' /></a>
    </div>
 
 }

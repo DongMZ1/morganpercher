@@ -15,6 +15,8 @@ import Event from './Component/Event'
 import "aos/dist/aos.css";
 import AOS from 'aos';
 
+import AnimatedCursor from "react-animated-cursor";
+
 function App() {
   useEffect(
     ()=>{
@@ -24,6 +26,14 @@ function App() {
   );
   return (
     <>
+    <AnimatedCursor
+    color='178, 255, 1'
+    innerSize={12}
+    outerSize={12}
+      outerAlpha={0.5}
+      innerScale={1}
+      outerScale={6}
+    />
     <Nav />
     <Presentation />
     <PressRelation />
