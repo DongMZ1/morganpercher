@@ -18,7 +18,7 @@ const Presentation = () => {
   return (
     <div className="presentation" id="presentation">
       <div onClick={playorparsevideo} className="presentation_video_container">
-        <video autoPlay loop width="100%" id="firstvideo">
+        <video autoPlay muted loop width="100%" id="firstvideo">
           <source src={video} type="video/mp4" />
         </video>
         <div

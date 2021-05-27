@@ -1,5 +1,5 @@
 .pressrelation{
-    padding: 100px;
+    padding: 100px, 5vw;
     &_image_container{
         justify-items: center;
         align-items: center;
@@ -8,5 +8,9 @@
     };
     img{
         width: 100%;
+        transition: all 0.3s linear;
+        &:hover{
+            transform: scale(1.2);
+        }
     }
 }
