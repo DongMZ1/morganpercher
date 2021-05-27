@@ -1,14 +1,14 @@
-@import "_button.scss";
-@import "_card.scss";
-@import "_navitem.scss";
-@import 'presentation.scss';
-@import 'communication.scss';
-@import 'education.scss';
-@import 'pressrelation.scss';
-@import 'writingorgan.scss';
-@import 'prefessional.scss';
-@import 'footer.scss';
-@import 'event.scss';
+@import "button.scss";
+@import "card.scss";
+@import "navitem.scss";
+@import '../Component/presentation.scss';
+@import '../Component/communication.scss';
+@import '../Component/education.scss';
+@import '../Component/pressrelation.scss';
+@import '../Component/writingorgan.scss';
+@import '../Component/prefessional.scss';
+@import '../Component/footer.scss';
+@import '../Component/event.scss';
 
 
 body{
