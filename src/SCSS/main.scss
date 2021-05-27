@@ -27,6 +27,7 @@ body{
     display: flex;
     width: 96vw;
     .navbmenu{
+        margin-top: 30px;
         display: none;
         cursor: pointer;
         background-color: white;
@@ -43,6 +44,7 @@ body{
             cursor: pointer;
             display: none;
         }
+        align-items: end;
         height: 200px;
         display: grid;
         gap: 15px;
