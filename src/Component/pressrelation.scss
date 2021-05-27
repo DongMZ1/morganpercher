@@ -1,4 +1,12 @@
 .pressrelation{
-    height: 600px;
     padding: 100px;
+    &_image_container{
+        justify-items: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    };
+    img{
+        width: 100%;
+    }
 }
