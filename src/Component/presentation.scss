@@ -1,6 +1,19 @@
 .presentation{
-    height: 600px;
+    position: 1000px;
     position: relative;
+    &_video_container{
+        position: relative;
+    }
+    &_videocontenttop{
+        background-color: rgba(blue, 0.2);
+        position: absolute;
+        padding: 2vw 10vw;
+        width: 100%;
+        height: 20%;
+        bottom: 5px;
+        color: white;
+        font-size: 20px;
+    }
     @media (max-width: 1350px) {
         padding-top: 230px;
     }

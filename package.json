@@ -10,13 +10,16 @@
     "aos": "^2.3.4",
     "i18next": "^20.3.0",
     "icons": "^1.0.0",
+    "install": "^0.13.0",
     "node-sass": "^6.0.0",
+    "npm": "^7.14.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.8.15",
     "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
+    "react-visibility-sensor": "^5.1.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
