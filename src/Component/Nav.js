@@ -42,7 +42,7 @@ const Nav = () =>{
     }
 
    return <div className='navb' data-aos="fade-down">
-       <div onClick={shownavicon} className="navbmenu">Menu</div>
+       <div onClick={shownavicon} className="navbmenu"><h5 style={{margin: 'auto'}}>Menu</h5></div>
        <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'110px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='presentation' spy={true} smooth={true} duration={100}>
        {translate("nav.item1")}
        </Link>
