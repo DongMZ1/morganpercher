@@ -28,7 +28,6 @@ body{
     .navbmenu{
         margin-top: 30px;
         display: none;
-        cursor: pointer;
         background-color: white;
         border: 2px solid black;
         width: 100px;
@@ -40,7 +39,6 @@ body{
     }
     @media (max-width: 1350px) {
         .navbmenu{
-            cursor: pointer;
             display: none;
         }
         align-items: end;
@@ -53,7 +51,6 @@ body{
 
     @media (max-width: 750px) {
         .navbmenu{
-            cursor: pointer;
             display: flex;
         }
         height: 100px;
