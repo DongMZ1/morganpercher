@@ -26,14 +26,6 @@ function App() {
   );
   return (
     <>
-    <AnimatedCursor
-    color='178, 255, 1'
-    innerSize={12}
-    outerSize={12}
-      outerAlpha={0.5}
-      innerScale={1}
-      outerScale={6}
-    />
     <Nav />
     <Presentation />
     <PressRelation />
