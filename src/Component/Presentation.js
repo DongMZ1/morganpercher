@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../SCSS/main.scss";
-import video from "../Video/tester.mp4";
+import video from "../Video/morganpresentation.mp4";
+import { useTranslation } from "react-i18next";
 
 const Presentation = () => {
   const [playvideo, setplayvideo] = useState(true);
+  const [translate, i18n] = useTranslation();
   const playorparsevideo = () => {
     const v = document.getElementById("firstvideo");
     if (playvideo === true) {
@@ -18,7 +20,7 @@ const Presentation = () => {
   return (
     <div className="presentation" id="presentation">
       <div onClick={playorparsevideo} className="presentation_video_container">
-        <video autoPlay loop width="100%" id="firstvideo">
+        <video muted autoPlay loop width="100%" id="firstvideo">
           <source src={video} type="video/mp4" />
         </video>
         <div
@@ -27,18 +29,56 @@ const Presentation = () => {
           data-aos-duration="1000"
           data-aos-easing="linear"
         >
-          À PROPOS Responsable de communication passionné par la protection de
-          la nature, je suis très enthousiaste, réactif et impliqué. Fort de 6
-          années d’expériences dont 2 années spécialisées dans les secteurs
-          touristiques et culturels, j'ai acquis des compétences en stratégie
-          ainsi qu'une grande polyvalence sur le terrain. Ainsi, je peux vous
-          accompagner dans le développement de l’image de votre entreprise et de
-          ses activités. Vous souhaitez échanger sur différents sujets liés à la
-          communication ou au développement durable, n'hésitez pas à me
-          contacter ! En attendant, je vous invite à consulter mes réalisations
-          en parcourant mon site et à en apprendre plus sur mes expériences et
-          ma formation, via LinkedIn !
+          Hi, I am Morgan Percher.
+          <div className='presentation_videocontenttop_subheader'>{translate("presentation.item0")}</div>
         </div>
+      </div>
+
+      <div className="presentation_whoiam">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+        >
+          {translate("presentation.item1")}
+        </div>
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+        >
+          {translate("presentation.item2")}
+        </div>
+        <br />
+        <div
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+          style={{ marginLeft: "10vw" }}
+        >
+          <h4>{translate("presentation.item3")}</h4>
+          <h4>{translate("presentation.item4")}</h4>
+          <h4>{translate("presentation.item5")}</h4>
+          <h4>{translate("presentation.item6")}</h4>
+          <h4>{translate("presentation.item7")}</h4>
+          <h4>{translate("presentation.item8")}</h4>
+          <h4>{translate("presentation.item9")}</h4>
+        </div>
+        <br />
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+        >
+          {translate("presentation.item10")}
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://www.linkedin.com/in/morgan-percher-b78190170/"
+          >
+            <b>via LinkedIn!</b>
+          </a>
+        </div>
+
       </div>
     </div>
   );

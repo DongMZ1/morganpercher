@@ -1,12 +1,24 @@
-{       
-    "nav":{
-         "item1": "Presentation",
-         "item2": "Press Relation",
-         "item3": "Communication Media",
-         "item4": "Writing",
-         "item5": "event",
-         "item6": "Professional experiences",
-         "item7": "Education"
-    }
-
+{
+  "nav": {
+    "item1": "Presentation",
+    "item2": "Press Relation",
+    "item3": "Communication Media",
+    "item4": "Writing",
+    "item5": "event",
+    "item6": "Professional experiences",
+    "item7": "Education"
+  },
+  "presentation": {
+    "item0":"Communication manager passionate by nature conservation",
+    "item1": "I am very enthusiastic, responsive and involved. With 6 years of experience, including 2 years specializing in the tourism and cultural sectors, I have acquired skills in strategy as well as great versatility in the field.",
+    "item2": "Thus, I can assist you in developing the image of your company and its activities by intervening in the following areas:",
+    "item3": "💭 Communication strategy",
+    "item4": "🎪 Event organisation",
+    "item5": "🌱 Ecology",
+    "item6": "📝 Content writing",
+    "item7": "🎨 Design of communication media",
+    "item8": "📰 Press relations management",
+    "item9": "📲 Social media",
+    "item10": "You wish to discuss various subjects related to communication or sustainable development, do not hesitate to contact me! In the meantime, I invite you to consult my achievements by browsing my site and to learn more about my experiences and my training, "
+  }
 }
