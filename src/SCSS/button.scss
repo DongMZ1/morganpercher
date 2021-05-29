@@ -361,7 +361,7 @@
     border: none;
     padding-top: 7px;
     height: 35px;
-    background-color: #8cb6ec;
+    background-color: #87CEEB;
     color: white;
     font-size: 15px;
     text-transform: uppercase;
@@ -375,8 +375,8 @@
         height: 10px;
         top: -5px;
         left: -5px;
-        border-top: 2px solid #8cb6ec;
-        border-left: 2px solid #8cb6ec;
+        border-top: 2px solid #87CEEB;
+        border-left: 2px solid #87CEEB;
         transition: all 0.25s;
       }
       &:hover:before, &:hover:after {
@@ -390,8 +390,8 @@
         height: 10px;
         bottom: -5px;
         right: -5px;
-        border-bottom: 2px solid #8cb6ec;
-        border-right: 2px solid #8cb6ec;
+        border-bottom: 2px solid #87CEEB;
+        border-right: 2px solid #87CEEB;
         transition: all 0.25s;
       }
 }

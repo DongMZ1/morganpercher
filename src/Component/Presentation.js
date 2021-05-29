@@ -29,7 +29,7 @@ const Presentation = () => {
           data-aos-duration="1000"
           data-aos-easing="linear"
         >
-          Hi, I am Morgan Percher.
+          {translate("presentation.item")}
           <div className='presentation_videocontenttop_subheader'>{translate("presentation.item0")}</div>
         </div>
       </div>
