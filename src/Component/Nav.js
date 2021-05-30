@@ -6,6 +6,7 @@ import useWindowSize from "@rooks/use-window-size"
 import {Link} from 'react-scroll'
 import { useTranslation } from 'react-i18next';
 
+
 const Nav = () =>{
     const [showicon, setshowicon] = useState('inline');
     const [translate, i18n ] = useTranslation();

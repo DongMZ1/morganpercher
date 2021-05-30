@@ -23,6 +23,7 @@ import pdf8 from '../pressrelation/pdf8.pdf';
 import pdf9 from '../pressrelation/pdf9.pdf';
 
 import { FiLink } from "react-icons/fi";
+import ReactPlayer from 'react-player'
 
 const PressRelation = () => {
   const [translate, i18n] = useTranslation();
@@ -76,7 +77,17 @@ const PressRelation = () => {
           <img src={item4} />
           <p>{translate("pressrelation.item9")}</p>
         </div>
-        {/**----------------------------------------------------------------------------- */}
+        {/**-------------------------------------player---------------------------------------- */}
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
+          <div className="regularcol_header">
+              {translate("pressrelation.item20")} 
+          </div>
+          <ReactPlayer width='100%' height='40%'
+          style={{paddingTop:'20px', paddingBottom:'20px', width:'50%'}}
+           url='https://www.youtube.com/watch?v=A8MlN5pxRj4&t=4s' />
+          <p>{translate("pressrelation.item21")}</p>
+        </div>
+        {/**----------------------------------end of player ------------------------------------------- */}
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a className="link" href={pdf5} style={{ textDecoration: "none" }}>
