@@ -22,10 +22,13 @@
             @media (max-width: 800px) {
                 font-size: 1.2rem;
             }
+            @media (max-width: 550px) {
+                font-size: 0.8rem;
+            }
         }
     };
     &_whoiam{
-        font-size: 1.5rem; 
+        font-size: 21px; 
         padding: 50px 10vw;
     }
     @media (max-width: 1350px) {
