@@ -13,13 +13,13 @@ const PressRelation = () => {
       <div className="headermiddle">Présentation de l'ensemble des communiqués et dossiers de presse que
           j'ai réalisé.</div>
       <div className="pressrelation_grid_container">
-        <div>hello</div>
-        <div>hello</div>
-        <div>hello</div>
-        <div>hello</div>
-        <div>hello</div>
-        <div>hello</div>
-        <div>hello</div>
+        <div className='regularcol'>hello</div>
+        <div className='regularcol'>hello</div>
+        <div className='regularcol'>hello</div>
+        <div className='regularcol'>hello</div>
+        <div className='regularcol'>hello</div>
+        <div className='regularcol'>hello</div>
+        <div className='regularcol'>hello</div>
       </div>
     </div>
   );

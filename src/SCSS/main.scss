@@ -12,7 +12,7 @@
 
 
 body{
-    padding: 0px 2vw 0px 2vw;
+    padding: 0px 7vw 0px 2vw;
     background-color: #fffffe;
     box-shadow: inset 1px 1px 10px 5px rgb(197, 213, 248); 
 }
@@ -38,7 +38,7 @@ body{
         margin-left: 1vw;
         margin-right: 1vw;
     }
-    @media (max-width: 1350px) {
+    @media (max-width: 1360px) {
         .navbmenu{
             display: none;
         }
