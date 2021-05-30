@@ -1,8 +1,5 @@
 .presentation{
-    position: 1000px;
-    position: relative;
     font-family: 'Coming Soon', sans-serif;
-    border-bottom: 2px black solid;
     &_video_container{
         position: relative;
     }
@@ -30,6 +27,12 @@
     &_whoiam{
         font-size: 21px; 
         padding: 50px 10vw;
+        @media (max-width: 1350px) {
+            font-size: 18px;
+        }
+        @media (max-width: 500px){
+            font-size: 16px;
+        }
     }
     @media (max-width: 1350px) {
         padding-top: 230px;
@@ -37,7 +40,9 @@
     @media (max-width: 750px){
         padding-top: 120px;
     }
-    padding: 100px 0px;
+    padding-top:100px;
+    padding-right: 2vw;
+    padding-left: 2vw;
 }
 
 #firstvideo{

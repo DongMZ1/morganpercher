@@ -1,18 +1,27 @@
-import React from 'react'
-import '../SCSS/main.scss'
-import testerimage from '../pictures/tester.jpg'
+import React from "react";
+import "../SCSS/main.scss";
+import testerimage from "../pictures/tester.jpg";
+import {useTranslation} from 'react-i18next'
 
-const PressRelation = () =>{
-    return <div className='pressrelation' id='pressrelation' data-aos="fade-down-left">
-           <div className='pressrelation_image_container'>
-              <img src={testerimage} />
-              <img src={testerimage} />
-              <img src={testerimage} />
-              <img src={testerimage} />
-              <img src={testerimage} />
-              <img src={testerimage} />
-              </div>   
-               
+const PressRelation = () => {
+    const [translate, i18n] = useTranslation();
+  return (
+    <div className="pressrelation" id="pressrelation">
+      <div className="header" data-aos="fade-down-left">
+        {translate("pressrelation.item1")}
+      </div>
+      <div className="headermiddle">Présentation de l'ensemble des communiqués et dossiers de presse que
+          j'ai réalisé.</div>
+      <div className="pressrelation_grid_container">
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+      </div>
     </div>
-}
+  );
+};
 export default PressRelation;

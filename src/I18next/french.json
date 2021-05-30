@@ -9,7 +9,7 @@
     "item7": "Formation"
   },
   "presentation": {
-    "item": "Salut, je suis Morgan Percher.",
+    "item": "Morgan Percher",
     "item0": "Responsable de communication passionné par la protection de la nature",
     "item1": "Je suis très enthousiaste, réactif et impliqué. Fort de 6 années d’expériences dont 2 années spécialisées dans les secteurs touristiques et culturels, j'ai acquis des compétences en stratégie ainsi qu'une grande polyvalence sur le terrain.",
     "item2": "Ainsi, je peux vous accompagner dans le développement de l’image de votre entreprise et de ses activités en intervenant sur les domaines suivants :",
@@ -21,5 +21,24 @@
     "item8": "📰 Gestion des relations presse",
     "item9": "📲 Animation des réseaux sociaux",
     "item10": "Vous souhaitez échanger sur différents sujets liés à la communication ou au développement durable, n'hésitez pas à me contacter! En attendant, je vous invite à consulter mes réalisations en parcourant mon site et à en apprendre plus sur mes expériences et ma formation, "
+  },
+  "pressrelation":{
+    "item1":"RELATIONS PRESSE",
+    "item2":"",
+    "item3":"",
+    "item4":"",
+    "item5":"",
+    "item6":"",
+    "item7":"",
+    "item8":"",
+    "item9":"",
+    "item10":"",
+    "item11":"",
+    "item12":"",
+    "item13":"",
+    "item14":"",
+    "item15":"",
+    "item16":"",
+    "item17":""
   }
 }

@@ -1,6 +1,35 @@
 .pressrelation{
-    padding: 100px, 5vw;
-    &_image_container{
+    padding-top: 80px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    .header{
+        font-family: 'Playfair Display', serif;
+        font-size: 6vw;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+    .headerwrap{
+        font-size: 15px;
+        padding: 20px;
+        border: 2px black solid;
+    }
+    .headermiddle{
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 10px 0px;
+        margin-top: 30px;
+        font-size: 25px;
+        border-bottom:2px black solid;
+        border-top:2px black solid;
+        width: 100%;
+        @media (max-width: 700px) {
+            font-size: 15px;
+        }
+    }
+    &_grid_container{
+        margin-top: 30px;
         justify-items: center;
         align-items: center;
         display: grid;
