@@ -37,7 +37,7 @@ const PressRelation = () => {
       </div>
       <div className="pressrelation_grid_container">
         {/**----------------------------------------------------------------------------- */}
-        <div className="regularcol">
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a href={pdf1} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.item2")} <FiLink />
@@ -47,7 +47,7 @@ const PressRelation = () => {
           <p>{translate("pressrelation.item3")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
-        <div className="regularcol">
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a href={pdf2} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.item4")} <FiLink />
@@ -57,9 +57,9 @@ const PressRelation = () => {
           <p>{translate("pressrelation.item5")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
-        <div className="regularcol">
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
-            <a className="link" style={{ textDecoration: "none" }}>
+            <a href={pdf3} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.item6")} <FiLink />
             </a>
           </div>
@@ -67,9 +67,9 @@ const PressRelation = () => {
           <p>{translate("pressrelation.item7")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
-        <div className="regularcol">
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
-            <a className="link" style={{ textDecoration: "none" }}>
+            <a className="link" href={pdf4} style={{ textDecoration: "none" }}>
               {translate("pressrelation.item8")} <FiLink />
             </a>
           </div>
@@ -77,9 +77,9 @@ const PressRelation = () => {
           <p>{translate("pressrelation.item9")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
-        <div className="regularcol">
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
-            <a className="link" style={{ textDecoration: "none" }}>
+            <a className="link" href={pdf5} style={{ textDecoration: "none" }}>
               {translate("pressrelation.item10")} <FiLink />
             </a>
           </div>
@@ -87,9 +87,9 @@ const PressRelation = () => {
           <p>{translate("pressrelation.item11")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
-        <div className="regularcol">
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
-            <a className="link" style={{ textDecoration: "none" }}>
+            <a href={pdf6} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.item12")} <FiLink />
             </a>
           </div>
@@ -97,9 +97,9 @@ const PressRelation = () => {
           <p>{translate("pressrelation.item13")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
-        <div className="regularcol">
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
-            <a className="link" style={{ textDecoration: "none" }}>
+            <a href={pdf7} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.item14")} <FiLink />
             </a>
           </div>
@@ -107,9 +107,9 @@ const PressRelation = () => {
           <p>{translate("pressrelation.item15")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
-        <div className="regularcol">
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
-            <a className="link" style={{ textDecoration: "none" }}>
+            <a href={pdf8} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.item16")} <FiLink />
             </a>
           </div>
@@ -117,9 +117,9 @@ const PressRelation = () => {
           <p>{translate("pressrelation.item17")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
-        <div className="regularcol">
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
-            <a className="link" style={{ textDecoration: "none" }}>
+            <a href={pdf9} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.item18")} <FiLink />
             </a>
           </div>

@@ -27,16 +27,16 @@ const Nav = () =>{
         }
     }
     useEffect(() => {
-        if(innerWidth > 750){
+        if(innerWidth > 1360){
         setshowicon('inline');
         }
-        if(innerWidth < 750){
+        if(innerWidth < 1360){
             setshowicon('none');
             }
     }, [innerWidth]);
 
     const closemenusmallerthan750 = () =>{
-        if(innerWidth < 750){
+        if(innerWidth < 1360){
             setshowicon('none');
         }
     }

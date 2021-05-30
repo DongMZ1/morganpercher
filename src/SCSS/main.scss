@@ -40,10 +40,10 @@ body{
     }
     @media (max-width: 1360px) {
         .navbmenu{
-            display: none;
+            display: flex;
         }
         align-items: end;
-        height: 200px;
+        height: 100px;
         display: grid;
         gap: 15px;
         grid-template-columns: repeat(3, 1fr);
