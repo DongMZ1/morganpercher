@@ -26,8 +26,10 @@ function App() {
   );
   return (
     <>
+    
     <Nav />
    <Presentation />
+    
     <PressRelation />
     <Communication />
     <WritingOrgan />
