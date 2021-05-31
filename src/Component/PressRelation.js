@@ -37,6 +37,8 @@ const PressRelation = () => {
         j'ai réalisé.
       </div>
       <div className="pressrelation_grid_container">
+
+ 
         {/**----------------------------------------------------------------------------- */}
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
