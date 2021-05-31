@@ -27,7 +27,7 @@ function App() {
   return (
     <>
     <Nav />
-    <Presentation />
+   <Presentation />
     <PressRelation />
     <Communication />
     <WritingOrgan />
