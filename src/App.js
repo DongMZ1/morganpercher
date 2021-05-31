@@ -25,7 +25,8 @@ function App() {
     },[]
   );
   return (
-    <>
+    //when use aos, we need include overflow-x hidden not in body, html but a wrapper
+    <div style={{overflowX: 'hidden'}}>
     
     <Nav />
    <Presentation />
@@ -37,7 +38,7 @@ function App() {
     <Professional />
     <Education />
     <Footer />
-    </>
+    </div>
   );
 }
 
