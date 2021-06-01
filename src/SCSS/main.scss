@@ -14,21 +14,23 @@
 body{
     //when use AOS, need to include this
     //overflow-x:hidden;
-    padding: 0px 7vw 0px 2vw;
+    //padding: 0px 7vw 0px 2vw;
     background-color: #fffffe;
-    box-shadow: inset 1px 1px 10px 5px rgb(197, 213, 248); 
     
 }
 
+
 .navb{
+    background-color: #fffffe;
     top: 0px;
-    z-index: 1;
+    padding-left: 5vw;
+    z-index: 3;
     position: fixed;
     height: 100px;
     align-items: center;
     display: flex;
     font-family: "Caveat", sans-serif;
-    width: 91vw;
+    width: 100vw;
     .navbmenu{
         margin-top: 30px;
         display: none;
@@ -47,7 +49,7 @@ body{
             display: flex;
         }
         align-items: end;
-        height: 100px;
+        height: auto;
         display: grid;
         gap: 15px;
         grid-template-columns: repeat(3, 1fr);
@@ -58,7 +60,7 @@ body{
         .navbmenu{
             display: flex;
         }
-        height: 100px;
+        height: auto;
         display: grid;
         gap: 15px;
         grid-template-columns: repeat(2, 1fr);
