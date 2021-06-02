@@ -41,105 +41,107 @@ const PressRelation = () => {
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a href={pdf1} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.item2")} <FiLink />
+            {translate("pressrelation.title1")} <br /> {translate("pressrelation.item2")} <FiLink />
             </a>
           </div>
           <a href={pdf1} className="link" style={{ textDecoration: "none" }}><img src={item1} /></a>
-          <p>{translate("pressrelation.item3")}</p>
+          <p><b>Description:</b> {translate("pressrelation.item3")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a href={pdf2} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.item4")} <FiLink />
+            {translate("pressrelation.title1")} <br /> {translate("pressrelation.item4")} <FiLink />
             </a>
           </div>
           <a href={pdf2} className="link" style={{ textDecoration: "none" }}><img src={item2} /></a>
-          <p>{translate("pressrelation.item5")}</p>
+          <p><b>Description:</b> {translate("pressrelation.item5")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a href={pdf3} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.item6")} <FiLink />
+            {translate("pressrelation.title1")} <br />  {translate("pressrelation.item6")} <FiLink />
             </a>
           </div>
-          <img src={item3} />
-          <p>{translate("pressrelation.item7")}</p>
+          <a href={pdf3} className="link" style={{ textDecoration: "none" }}><img src={item3} /></a>
+          <p><b>Description:</b> {translate("pressrelation.item7")}</p>
         </div>
+        {/**-------------------------------------player---------------------------------------- */}
+        <div className="regularcol" data-aos="fade-right" data-aos-offset="100" style={{paddingBottom: '120px'}}>
+          <div className="regularcol_header">
+              {translate("pressrelation.item20")} 
+          </div>
+          <ReactPlayer width='110%' height='50%'
+          style={{paddingTop:'20px', paddingBottom:'20px', width:'50%'}}
+           url='https://www.youtube.com/watch?v=A8MlN5pxRj4&t=4s' />
+          <p><b>Description:</b> {translate("pressrelation.item21")}</p>
+        </div>
+        {/**end of video ----------------------------------------------------------- */}
         {/**----------------------------------------------------------------------------- */}
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a className="link" href={pdf4} style={{ textDecoration: "none" }}>
-              {translate("pressrelation.item8")} <FiLink />
+            {translate("pressrelation.title1")} <br />  {translate("pressrelation.item8")} <FiLink />
             </a>
           </div>
-          <img src={item4} />
-          <p>{translate("pressrelation.item9")}</p>
+          <a className="link" href={pdf4} style={{ textDecoration: "none" }}><img src={item4} /></a>
+          <p><b>Description:</b> {translate("pressrelation.item9")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a className="link" href={pdf5} style={{ textDecoration: "none" }}>
-              {translate("pressrelation.item10")} <FiLink />
+            {translate("pressrelation.title1")} <br /> {translate("pressrelation.item10")} <FiLink />
             </a>
           </div>
           <img src={item5} />
-          <p>{translate("pressrelation.item11")}</p>
+          <p><b>Description:</b> {translate("pressrelation.item11")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a href={pdf6} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.item12")} <FiLink />
+            {translate("pressrelation.title1")} <br /> {translate("pressrelation.item12")} <FiLink />
             </a>
           </div>
-          <img src={item6} />
-          <p>{translate("pressrelation.item13")}</p>
+          <a href={pdf6} className="link" style={{ textDecoration: "none" }}><img src={item6} /></a>
+          <p><b>Description:</b> {translate("pressrelation.item13")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a href={pdf7} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.item14")} <FiLink />
+            {translate("pressrelation.title1")} <br /> {translate("pressrelation.item14")} <FiLink />
             </a>
           </div>
-          <img src={item7} />
-          <p>{translate("pressrelation.item15")}</p>
+          <a href={pdf7} className="link" style={{ textDecoration: "none" }}><img src={item7} /></a>
+          <p><b>Description:</b> {translate("pressrelation.item15")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a href={pdf8} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.item16")} <FiLink />
+            {translate("pressrelation.title1")} <br /> {translate("pressrelation.item16")} <FiLink />
             </a>
           </div>
-          <img src={item8} />
-          <p>{translate("pressrelation.item17")}</p>
+          <a href={pdf8} className="link" style={{ textDecoration: "none" }}><img src={item8} /></a>
+          <p><b>Description:</b> {translate("pressrelation.item17")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
         <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
           <div className="regularcol_header">
             <a href={pdf9} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.item18")} <FiLink />
+             {translate("pressrelation.title2")} <br /> {translate("pressrelation.item18")} <FiLink />
             </a>
           </div>
-          <p>{translate("pressrelation.item19")}</p>
+          <p style={{paddingBottom:'0px'}}><b>{translate("pressrelation.contenttitle")}:</b> Agglomération du Pays de Dreux</p>
+          <p><b>Mission:</b> {translate("pressrelation.item19")}</p>
         </div>
-        {/**-------------------------------------player---------------------------------------- */}
-        <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
-          <div className="regularcol_header">
-              {translate("pressrelation.item20")} 
-          </div>
-          <ReactPlayer width='110%' height='35%'
-          style={{paddingTop:'20px', paddingBottom:'20px', width:'50%'}}
-           url='https://www.youtube.com/watch?v=A8MlN5pxRj4&t=4s' />
-          <p>{translate("pressrelation.item21")}</p>
-        </div>
-        {/**end of video ----------------------------------------------------------- */}
+        {/**------------------------------------------------------------------------------- */}
       </div>
       {/**end of container ---------------------------------------------------------- */}
-    </div>
+    </div>  
   );
 };
 export default PressRelation;

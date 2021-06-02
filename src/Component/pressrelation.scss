@@ -39,7 +39,7 @@
         .regularcol{
             //width: 100%;
             margin: 0px 0px 0px 0px;
-            padding: 0px 10% 60px 10%;
+            padding: 0px 10% 0px 10%;
             border-right: 2px black solid; 
             @media (max-width: 1050px) {
                 border-right: none;
@@ -47,7 +47,17 @@
             p{
                 padding: 20px 0px 20px 0px;
             }
+            &_type{
+                font-style: italic;
+                font-family: 'Playfair Display', serif;
+                text-align: center;
+                font-size: 33px;
+                padding: 30px 0px 30px 0px;
+                border-top: 2px brown solid;
+                border-bottom: 2px brown solid;
+            }
             &_header{
+                text-transform: uppercase;
                 font-style: italic;
                 font-family: 'Playfair Display', serif;
                 font-size: 27px;
@@ -80,4 +90,6 @@
         }
     }
 }
+
 @include newspaper();
+
