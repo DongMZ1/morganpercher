@@ -28,13 +28,13 @@ import ReactPlayer from 'react-player'
 const PressRelation = () => {
   const [translate, i18n] = useTranslation();
   return (
-    <div className="newspaper" id="pressrelation">
+    <div className="pressrelation" id="pressrelation">
       <div className="header" data-aos="fade-down-left">
         {translate("pressrelation.item1")}
       </div>
       <div className="headermiddle">
       </div>
-      <div className="newspaper_grid_container">
+      <div className="pressrelation_grid_container">
 
  
         {/**----------------------------------------------------------------------------- */}

@@ -1,95 +1,95 @@
 @mixin newspaper() {
-    .newspaper{
-        padding-top: 120px;
-        padding-right: 2vw;
-        padding-left: 2vw;
-        width: auto;
-        @media (max-width: 1200px) {
-            padding-top: 130px;
-        }
-        @media (max-width: 750px) {
-            padding-top: 140px;
-        }
-        .header{
-            font-family: 'Playfair Display', serif;
-            font-size: 6vw;
-            text-align: center;
-            text-transform: uppercase;
-            
-        }
-        .headerwrap{
+    padding-top: 120px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    width: auto;
+    @media (max-width: 1200px) {
+        padding-top: 130px;
+    }
+    @media (max-width: 750px) {
+        padding-top: 140px;
+    }
+    .header{
+        font-family: 'Playfair Display', serif;
+        font-size: 6vw;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+    .headerwrap{
+        font-size: 15px;
+        padding: 20px;
+        border: 2px black solid;
+    }
+    .headermiddle{
+        height: 5px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 10px 0px;
+        margin-top: 30px;
+        font-size: 25px;
+        border-top:2px black solid;
+        width: 100%;
+        @media (max-width: 700px) {
             font-size: 15px;
-            padding: 20px;
-            border: 2px black solid;
-        }
-        .headermiddle{
-            height: 5px;
-            font-family: 'Playfair Display', serif;
-            text-align: center;
-            text-transform: uppercase;
-            padding: 10px 0px;
-            margin-top: 30px;
-            font-size: 25px;
-            border-top:2px black solid;
-            width: 100%;
-            @media (max-width: 700px) {
-                font-size: 15px;
-            }
-        }
-        .regularcol{
-            //width: 100%;
-            margin: 0px 0px 0px 0px;
-            padding: 0px 10% 0px 10%;
-            border-right: 2px black solid; 
-            @media (max-width: 1050px) {
-                border-right: none;
-            }
-            p{
-                padding: 20px 0px 20px 0px;
-            }
-            &_type{
-                font-style: italic;
-                font-family: 'Playfair Display', serif;
-                text-align: center;
-                font-size: 33px;
-                padding: 30px 0px 30px 0px;
-                border-top: 2px brown solid;
-                border-bottom: 2px brown solid;
-            }
-            &_header{
-                text-transform: uppercase;
-                font-style: italic;
-                font-family: 'Playfair Display', serif;
-                font-size: 27px;
-                text-align: center;
-                padding: 0px 0px 20px 0px;
-               // border-top: 2px brown solid;
-                border-bottom: 2px brown solid;
-                @media (max-width: 600px) {
-                    font-size: 18px;
-                }
-            }
-        }
-        &_grid_container{
-            font-family: 'Droid Serif', sans-serif;
-            margin-top: 30px;
-            //justify-items: center;
-            //align-items: center;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            @media (max-width: 1360px) {
-                grid-template-columns: 1fr 1fr;
-            }
-            @media (max-width: 1050px) {
-                grid-template-columns: 1fr;
-            }
-        };
-        img{
-            width: 100%;
-            margin-top: 20px;
         }
     }
-}
+    .regularcol{
+        //width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 10% 0px 10%;
+        border-right: 2px black solid; 
+        @media (max-width: 1050px) {
+            border-right: none;
+        }
+        p{
+            padding: 20px 0px 20px 0px;
+        }
+        &_type{
+            font-style: italic;
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            font-size: 33px;
+            padding: 30px 0px 30px 0px;
+            border-top: 2px brown solid;
+            border-bottom: 2px brown solid;
+        }
+        &_header{
+            text-transform: uppercase;
+            font-style: italic;
+            font-family: 'Playfair Display', serif;
+            font-size: 27px;
+            text-align: center;
+            padding: 0px 0px 20px 0px;
+           // border-top: 2px brown solid;
+            border-bottom: 2px brown solid;
+            @media (max-width: 600px) {
+                font-size: 18px;
+            }
+        }
+    }
+    &_grid_container{
+        font-family: 'Droid Serif', sans-serif;
+        margin-top: 30px;
+        //justify-items: center;
+        //align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        @media (max-width: 1360px) {
+            grid-template-columns: 1fr 1fr;
+        }
+        @media (max-width: 1050px) {
+            grid-template-columns: 1fr;
+        }
+    };
+    img{
+        width: 100%;
+        margin-top: 20px;
+    }
 
+}
+.pressrelation{
 @include newspaper();
+}
 
