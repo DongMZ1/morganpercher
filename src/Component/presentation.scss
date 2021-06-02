@@ -1,6 +1,6 @@
 .presentation{
     overflow-x: hidden;
-    background-color: lightgrey;
+    background-color: #ededed;
     font-family: 'Coming Soon', sans-serif;
     &_video_container{
         position: relative;
@@ -37,9 +37,9 @@
         }
     }
     @media (max-width: 1360px){
-        padding-top: 120px;
+        padding-top: 140px;
     }
-    padding-top:140px;
+    padding-top: 140px;
     padding-right: 2vw;
     padding-left: 2vw;
 }

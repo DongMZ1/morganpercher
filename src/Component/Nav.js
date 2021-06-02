@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from 'react'
 import '../SCSS/main.scss'
 import {SiGoogletranslate} from 'react-icons/si'
-import {AiOutlineLinkedin} from 'react-icons/ai'
+import {AiOutlineLinkedin, AiOutlineMenuUnfold} from 'react-icons/ai'
 import useWindowSize from "@rooks/use-window-size"
 import {Link} from 'react-scroll'
 import { useTranslation } from 'react-i18next';
+
 
 
 const Nav = () =>{
@@ -43,7 +44,7 @@ const Nav = () =>{
     }
 
    return <div className='navb' data-aos="fade-down">
-       <div onClick={shownavicon} className="navbmenu"><h5 style={{margin: 'auto'}}>Menu</h5></div>
+       <AiOutlineMenuUnfold onClick={shownavicon} className='navbmenu' />
        <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'110px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='presentation' spy={true} smooth={true} duration={100}>
        {translate("nav.item1")}
        </Link>
