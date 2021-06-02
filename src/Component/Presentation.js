@@ -18,17 +18,19 @@ const Presentation = () => {
   };
 
   //on iphone there is a bug that the video does not auto play, use useeffect to solve it
+ /*
   useEffect(
     ()=>{
       const v = document.getElementById("firstvideo");
       v.play();
     },[]
   )
+  */
 
   return (
     <div className="presentation" id="presentation">
       <div className="presentation_video_container">
-        <video autoPlay muted loop width="100%" id="firstvideo">
+        <video autoPlay loop muted playsInline width="100%" id="firstvideo">
           <source src={video} type="video/mp4" />
         </video>
         <div

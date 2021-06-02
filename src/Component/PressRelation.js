@@ -44,7 +44,7 @@ const PressRelation = () => {
               {translate("pressrelation.item2")} <FiLink />
             </a>
           </div>
-          <img src={item1} />
+          <a href={pdf1} className="link" style={{ textDecoration: "none" }}><img src={item1} /></a>
           <p>{translate("pressrelation.item3")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
@@ -54,7 +54,7 @@ const PressRelation = () => {
               {translate("pressrelation.item4")} <FiLink />
             </a>
           </div>
-          <img src={item2} />
+          <a href={pdf2} className="link" style={{ textDecoration: "none" }}><img src={item2} /></a>
           <p>{translate("pressrelation.item5")}</p>
         </div>
         {/**----------------------------------------------------------------------------- */}
