@@ -27,7 +27,7 @@ const Communication = () =>{
     const [translate, i18n] = useTranslation();
     return (
       <div className="communication" id="communication">
-        <div className="header" data-aos="fade-down-left">
+        <div className="header" data-aos="fade-down-right">
            Communication
         </div>
         <div className="headermiddle">
@@ -36,7 +36,7 @@ const Communication = () =>{
   
    
           {/**----------------------------------------------------------------------------- */}
-          <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
+          <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf1} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.title1")} <br /> {translate("pressrelation.item2")} <FiLink />
@@ -46,7 +46,7 @@ const Communication = () =>{
             <p><b>Description:</b> {translate("pressrelation.item3")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
-          <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
+          <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf2} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.title1")} <br /> {translate("pressrelation.item4")} <FiLink />
@@ -56,7 +56,7 @@ const Communication = () =>{
             <p><b>Description:</b> {translate("pressrelation.item5")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
-          <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
+          <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf3} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.title1")} <br />  {translate("pressrelation.item6")} <FiLink />
@@ -66,7 +66,7 @@ const Communication = () =>{
             <p><b>Description:</b> {translate("pressrelation.item7")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
-          <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
+          <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a className="link" href={pdf4} style={{ textDecoration: "none" }}>
               {translate("pressrelation.title1")} <br />  {translate("pressrelation.item8")} <FiLink />
@@ -76,7 +76,7 @@ const Communication = () =>{
             <p><b>Description:</b> {translate("pressrelation.item9")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
-          <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
+          <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a className="link" href={pdf5} style={{ textDecoration: "none" }}>
               {translate("pressrelation.title1")} <br /> {translate("pressrelation.item10")} <FiLink />
@@ -86,7 +86,7 @@ const Communication = () =>{
             <p><b>Description:</b> {translate("pressrelation.item11")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
-          <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
+          <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf6} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.title1")} <br /> {translate("pressrelation.item12")} <FiLink />
@@ -96,7 +96,7 @@ const Communication = () =>{
             <p><b>Description:</b> {translate("pressrelation.item13")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
-          <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
+          <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf7} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.title1")} <br /> {translate("pressrelation.item14")} <FiLink />
@@ -106,7 +106,7 @@ const Communication = () =>{
             <p><b>Description:</b> {translate("pressrelation.item15")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
-          <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
+          <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf8} className="link" style={{ textDecoration: "none" }}>
               {translate("pressrelation.title1")} <br /> {translate("pressrelation.item16")} <FiLink />
@@ -116,7 +116,7 @@ const Communication = () =>{
             <p><b>Description:</b> {translate("pressrelation.item17")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
-          <div className="regularcol" data-aos="fade-right" data-aos-offset="100">
+          <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf9} className="link" style={{ textDecoration: "none" }}>
                {translate("pressrelation.title2")} <br /> {translate("pressrelation.item18")} <FiLink />
