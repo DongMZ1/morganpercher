@@ -1,17 +1,18 @@
 @mixin newspaper() {
-    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-top: 140px;
     padding-right: 2vw;
     padding-left: 2vw;
     width: auto;
     @media (max-width: 1200px) {
-        padding-top: 130px;
+        padding-top: 150px;
     }
     @media (max-width: 750px) {
-        padding-top: 140px;
+        padding-top: 150px;
     }
     .header{
         font-family: 'Playfair Display', serif;
-        font-size: 6vw;
+        font-size: 4vw;
         text-align: center;
         text-transform: uppercase;
         
@@ -38,13 +39,13 @@
     .regularcol{
         //width: 100%;
         margin: 0px 0px 0px 0px;
-        padding: 0px 10% 0px 10%;
+        padding: 0px 30px 0px 30px;
         border-right: 2px black solid; 
         @media (max-width: 1050px) {
             border-right: none;
         }
         p{
-            padding: 20px 0px 20px 0px;
+            padding: 10px 0px 10px 0px;
         }
         &_type{
             font-style: italic;
@@ -91,7 +92,9 @@
 }
 
 .communication{
-    background-color: #f9f7f1;
+    background-color: #E6E6FA;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+    clip-path: polygon(0% 10vw, 100% 0%, 100% 100%, 0% 100%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     @include newspaper();
 }

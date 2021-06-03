@@ -49,27 +49,50 @@
     "contenttitle":"Entreprise"
   },
   "communication":{
+    "company":"Entreprise:",
+    "project":"Projet",
     "item1":"CRÉATION DE SUPPORTS DE COMMUNICATION",
-    "item2":"",
-    "item3":"",
-    "item4":"",
-    "item5":"",
-    "item6":"",
-    "item7":"",
-    "item8":"",
-    "item9":"",
-    "item10":"",
-    "item11":"",
-    "item12":"",
-    "item13":"",
-    "item14":"",
-    "item15":"",
-    "item16":"",
-    "item17":"",
-    "item18":"",
-    "item19":"",
-    "item20":"",
-    "item21":"",
-    "item22":""
+
+    "item2":"VISUEL POUR PARUTION DANS UN JOURNAL",
+    "item3":"Aquarium de Paris",
+    "item4":"exposition PEPPA PIG",
+    "item5":"création d'une affiche pour un partenariat avec le journal Libération",
+
+    "item6":"VISUEL POUR LES RÉSEAUX SOCIAUX",
+    "item7":"Aquarium de Paris",
+    "item8":"exposition LOUP",
+    "item9":"création d'un visuel pour l'exposition",
+
+    "item10":"PANNEAUX EXTÉRIEURES",
+    "item11":"Agglomération du Pays de Dreux",
+    "item12":"valorisation des actions en faveur de la biodiversité",
+    "item13":"création des panneaux en alu-dibond pour informer les visiteurs sur les actions mises en place dans le secteur",
+
+    "item14":"AFFICHES",
+    "item15":"Axa Entreprise",
+    "item16":"lancement d'une application mobile",
+    "item17":"création de plusieurs affiches pour habiller l'évènement",
+
+    "item18":"PANNEAUX",
+    "item19":"Axa Entreprise",
+    "item20":"lancement d'une application mobile",
+    "item21":"création de panneaux de présentation du projet pour habiller l’évènement.",
+
+    "item22":"KAKÉMONO",
+    "item23":"AXA Entreprise",
+    "item24":"Lancement d'une nouvelle application mobile",
+    "item25":"création des kakémonos pour habiller l'évènement.",
+
+    "item26":"CARTON D'INVITATON",
+    "item27":"Agence Etat d'Esprit Rouen",
+    "item28":"Union Européenne",
+    "item29":"création du carton d'invitation pour des conférences",
+    "item30":"il m'a été confié la tâche de rédiger et de mettre en page les éléments de ce carton d'invitation.",
+
+    "item31":"BROCHURE",
+    "item32":"Agence Etat d'Esprit Rouen",
+    "item33":"Icade agence immobilière",
+    "item34":"création de la brochure de présentation du nouveau programme immobilier",
+    "item35":"il m'a été confié la tâche de rédiger et de mettre en page les éléments de cette brochure."
   }
 }

@@ -49,27 +49,50 @@
     "contenttitle":"Company"
   },
   "communication":{
+    "company":"Company:",
+    "project":"Project:",
     "item1":"CREATION OF COMMUNICATION MEDIA",
-    "item2":"",
-    "item3":"",
-    "item4":"",
-    "item5":"",
-    "item6":"",
-    "item7":"",
-    "item8":"",
-    "item9":"",
-    "item10":"",
-    "item11":"",
-    "item12":"",
-    "item13":"",
-    "item14":"",
-    "item15":"",
-    "item16":"",
-    "item17":"",
-    "item18":"",
-    "item19":"",
-    "item20":"",
-    "item21":"",
-    "item22":""
+    
+    "item2":"VISUAL FOR PUBLICATION IN A NEWSPAPER",
+    "item3":"Paris Aquarium",
+    "item4":"PEPPA PIG exhibition",
+    "item5":"creation of a poster for a partnership with the newspaper Liberation",
+
+    "item6":"VISUAL FOR SOCIAL NETWORKS",
+    "item7":"Paris Aquarium",
+    "item8":"LOUP exhibition",
+    "item9":"creation of a visual for the exhibition",
+
+    "item10":"EXTERIOR PANELS",
+    "item11":"Agglomération du Pays de Dreux",
+    "item12":"promotion of actions in favor of biodiversity",
+    "item13":"creation of alu-dibond panels to inform visitors about the actions implemented in the sector.",
+
+    "item14":"POSTERS",
+    "item15":"Axa Entreprise",
+    "item16":"launch of a mobile application",
+    "item17":"creation of several posters to prepare a venue of the event",
+
+    "item18":"PANELS",
+    "item19":"Axa Company",
+    "item20":"launch of a mobile application",
+    "item21":"creation of project presentation panels to prepare the venue of the event.",
+
+    "item22":"KAKÉMONO",
+    "item23":"AXA Entreprise",
+    "item24":"Launch of a new mobile application",
+    "item25":"creation of kakemonos to prepare the venue of the event",
+
+    "item26":"INVITATION BOX",
+    "item27":"Agence Etat d'Esprit Rouen",
+    "item28":"European Union",
+    "item29":"creation of the invitation card for conferences",
+    "item30":"I was entrusted with the task of writing and layout the elements of this invitation card.",
+
+    "item31":"BROCHURE",
+    "item32":"Agence Etat d'Esprit Rouen",
+    "item33":"Icade real estate agency",
+    "item34":"creation of the presentation brochure for the new real estate program",
+    "item35":"I have been entrusted with the task of writing and laying out the elements of this brochure."
   }
 }

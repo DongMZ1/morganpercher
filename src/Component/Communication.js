@@ -2,24 +2,23 @@ import React from 'react'
 import '../SCSS/main.scss'
 import { useTranslation } from "react-i18next";
 //images
-import item1 from "../pressrelation/item1.webp";
-import item2 from "../pressrelation/item2.webp";
-import item3 from "../pressrelation/item3.webp";
-import item4 from "../pressrelation/item4.webp";
-import item5 from "../pressrelation/item5.webp";
-import item6 from "../pressrelation/item6.webp";
-import item7 from "../pressrelation/item7.webp";
-import item8 from "../pressrelation/item8.webp";
+import p1 from "../communication/p1.webp";
+import p2 from "../communication/p2.webp";
+import p3 from "../communication/p3.webp";
+import p4 from "../communication/p4.webp";
+import p5 from "../communication/p5.webp";
+import p6 from "../communication/p6.webp";
+import p7 from "../communication/p7.webp";
+import p8 from "../communication/p8.webp";
 //file links
-import pdf1 from '../pressrelation/pdf1.pdf';
-import pdf2 from '../pressrelation/pdf2.pdf';
-import pdf3 from '../pressrelation/pdf3.pdf';
-import pdf4 from '../pressrelation/pdf4.pdf';
-import pdf5 from '../pressrelation/pdf5.pdf';
-import pdf6 from '../pressrelation/pdf6.pdf';
-import pdf7 from '../pressrelation/pdf7.pdf';
-import pdf8 from '../pressrelation/pdf8.pdf';
-import pdf9 from '../pressrelation/pdf9.pdf';
+import pdf1 from '../communication/p1.pdf'
+import pdf2 from '../communication/p2.pdf'
+import pdf3 from '../communication/p3.pdf'
+import pdf4 from '../communication/p4.pdf'
+import pdf5 from '../communication/p5.pdf'
+import pdf6 from '../communication/p6.pdf'
+import pdf7 from '../communication/p7.pdf'
+import pdf8 from '../communication/p8.pdf'
 
 import { FiLink } from "react-icons/fi";
 
@@ -28,7 +27,7 @@ const Communication = () =>{
     return (
       <div className="communication" id="communication">
         <div className="header" data-aos="fade-down-right">
-           Communication
+           {translate("communication.item1")}
         </div>
         <div className="headermiddle">
         </div>
@@ -39,91 +38,81 @@ const Communication = () =>{
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf1} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.title1")} <br /> {translate("pressrelation.item2")} <FiLink />
+               {translate("communication.item2")} <FiLink />
               </a>
             </div>
-            <a href={pdf1} className="link" style={{ textDecoration: "none" }}><img src={item1} /></a>
+            <a href={pdf1} className="link" style={{ textDecoration: "none" }}><img src={p1} /></a>
             <p><b>Description:</b> {translate("pressrelation.item3")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf2} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.title1")} <br /> {translate("pressrelation.item4")} <FiLink />
+              {translate("communication.item6")} <FiLink />
               </a>
             </div>
-            <a href={pdf2} className="link" style={{ textDecoration: "none" }}><img src={item2} /></a>
+            <a href={pdf2} className="link" style={{ textDecoration: "none" }}><img src={p2} /></a>
             <p><b>Description:</b> {translate("pressrelation.item5")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf3} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.title1")} <br />  {translate("pressrelation.item6")} <FiLink />
+              {translate("communication.item10")} <FiLink />
               </a>
             </div>
-            <a href={pdf3} className="link" style={{ textDecoration: "none" }}><img src={item3} /></a>
+            <a href={pdf3} className="link" style={{ textDecoration: "none" }}><img src={p3} /></a>
             <p><b>Description:</b> {translate("pressrelation.item7")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a className="link" href={pdf4} style={{ textDecoration: "none" }}>
-              {translate("pressrelation.title1")} <br />  {translate("pressrelation.item8")} <FiLink />
+              {translate("communication.item14")} <FiLink />
               </a>
             </div>
-            <a className="link" href={pdf4} style={{ textDecoration: "none" }}><img src={item4} /></a>
+            <a className="link" href={pdf4} style={{ textDecoration: "none" }}><img src={p4} /></a>
             <p><b>Description:</b> {translate("pressrelation.item9")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a className="link" href={pdf5} style={{ textDecoration: "none" }}>
-              {translate("pressrelation.title1")} <br /> {translate("pressrelation.item10")} <FiLink />
+              {translate("communication.item18")} <FiLink />
               </a>
             </div>
-            <img src={item5} />
+            <img src={p5} />
             <p><b>Description:</b> {translate("pressrelation.item11")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf6} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.title1")} <br /> {translate("pressrelation.item12")} <FiLink />
+              {translate("communication.item22")} <FiLink />
               </a>
             </div>
-            <a href={pdf6} className="link" style={{ textDecoration: "none" }}><img src={item6} /></a>
+            <a href={pdf6} className="link" style={{ textDecoration: "none" }}><img src={p6} /></a>
             <p><b>Description:</b> {translate("pressrelation.item13")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf7} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.title1")} <br /> {translate("pressrelation.item14")} <FiLink />
+              {translate("communication.item26")} <FiLink />
               </a>
             </div>
-            <a href={pdf7} className="link" style={{ textDecoration: "none" }}><img src={item7} /></a>
+            <a href={pdf7} className="link" style={{ textDecoration: "none" }}><img src={p7} /></a>
             <p><b>Description:</b> {translate("pressrelation.item15")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
             <div className="regularcol_header">
               <a href={pdf8} className="link" style={{ textDecoration: "none" }}>
-              {translate("pressrelation.title1")} <br /> {translate("pressrelation.item16")} <FiLink />
+              {translate("communication.item31")} <FiLink />
               </a>
             </div>
-            <a href={pdf8} className="link" style={{ textDecoration: "none" }}><img src={item8} /></a>
+            <a href={pdf8} className="link" style={{ textDecoration: "none" }}><img src={p8} /></a>
             <p><b>Description:</b> {translate("pressrelation.item17")}</p>
-          </div>
-          {/**----------------------------------------------------------------------------- */}
-          <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
-            <div className="regularcol_header">
-              <a href={pdf9} className="link" style={{ textDecoration: "none" }}>
-               {translate("pressrelation.title2")} <br /> {translate("pressrelation.item18")} <FiLink />
-              </a>
-            </div>
-            <p style={{paddingBottom:'0px'}}><b>{translate("pressrelation.contenttitle")}:</b> Agglomération du Pays de Dreux</p>
-            <p><b>Mission:</b> {translate("pressrelation.item19")}</p>
           </div>
           {/**------------------------------------------------------------------------------- */}
         </div>

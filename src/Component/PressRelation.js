@@ -72,7 +72,7 @@ const PressRelation = () => {
           <div className="regularcol_header">
               {translate("pressrelation.item20")} 
           </div>
-          <ReactPlayer width='110%' height='50%'
+          <ReactPlayer width='100%' height='50%'
           style={{paddingTop:'20px', paddingBottom:'20px', width:'50%'}}
            url='https://www.youtube.com/watch?v=A8MlN5pxRj4&t=4s' />
           <p><b>Description:</b> {translate("pressrelation.item21")}</p>
