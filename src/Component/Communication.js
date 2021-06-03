@@ -42,7 +42,9 @@ const Communication = () =>{
               </a>
             </div>
             <a href={pdf1} className="link" style={{ textDecoration: "none" }}><img src={p1} /></a>
-            <p><b>Description:</b> {translate("pressrelation.item3")}</p>
+            <p><b>{translate("communication.company")}</b>{translate("communication.item3")}</p>
+            <p><b>{translate("communication.project")}</b>{translate("communication.item4")}</p>
+            <p><b>Mission: </b>{translate("communication.item5")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
@@ -52,7 +54,9 @@ const Communication = () =>{
               </a>
             </div>
             <a href={pdf2} className="link" style={{ textDecoration: "none" }}><img src={p2} /></a>
-            <p><b>Description:</b> {translate("pressrelation.item5")}</p>
+            <p><b>{translate("communication.company")}</b>{translate("communication.item7")}</p>
+            <p><b>{translate("communication.project")}</b>{translate("communication.item8")}</p>
+            <p><b>Mission: </b>{translate("communication.item9")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
@@ -62,7 +66,9 @@ const Communication = () =>{
               </a>
             </div>
             <a href={pdf3} className="link" style={{ textDecoration: "none" }}><img src={p3} /></a>
-            <p><b>Description:</b> {translate("pressrelation.item7")}</p>
+            <p><b>{translate("communication.company")}</b>{translate("communication.item11")}</p>
+            <p><b>{translate("communication.project")}</b>{translate("communication.item12")}</p>
+            <p><b>Mission: </b>{translate("communication.item13")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
@@ -72,7 +78,9 @@ const Communication = () =>{
               </a>
             </div>
             <a className="link" href={pdf4} style={{ textDecoration: "none" }}><img src={p4} /></a>
-            <p><b>Description:</b> {translate("pressrelation.item9")}</p>
+            <p><b>{translate("communication.company")}</b>{translate("communication.item15")}</p>
+            <p><b>{translate("communication.project")}</b>{translate("communication.item16")}</p>
+            <p><b>Mission: </b>{translate("communication.item17")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
@@ -81,8 +89,10 @@ const Communication = () =>{
               {translate("communication.item18")} <FiLink />
               </a>
             </div>
-            <img src={p5} />
-            <p><b>Description:</b> {translate("pressrelation.item11")}</p>
+            <a className="link" href={pdf5} style={{ textDecoration: "none" }}><img src={p5} /></a>
+            <p><b>{translate("communication.company")}</b>{translate("communication.item19")}</p>
+            <p><b>{translate("communication.project")}</b>{translate("communication.item20")}</p>
+            <p><b>Mission: </b>{translate("communication.item21")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
@@ -92,7 +102,9 @@ const Communication = () =>{
               </a>
             </div>
             <a href={pdf6} className="link" style={{ textDecoration: "none" }}><img src={p6} /></a>
-            <p><b>Description:</b> {translate("pressrelation.item13")}</p>
+            <p><b>{translate("communication.company")}</b>{translate("communication.item23")}</p>
+            <p><b>{translate("communication.project")}</b>{translate("communication.item24")}</p>
+            <p><b>Mission: </b>{translate("communication.item25")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
@@ -102,7 +114,10 @@ const Communication = () =>{
               </a>
             </div>
             <a href={pdf7} className="link" style={{ textDecoration: "none" }}><img src={p7} /></a>
-            <p><b>Description:</b> {translate("pressrelation.item15")}</p>
+            <p><b>{translate("communication.company")}</b>{translate("communication.item27")}</p>
+            <p><b>Client: </b>{translate("communication.item28")}</p>
+            <p><b>{translate("communication.project")}</b>{translate("communication.item29")}</p>
+            <p><b>Mission: </b>{translate("communication.item30")}</p>
           </div>
           {/**----------------------------------------------------------------------------- */}
           <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
@@ -112,7 +127,10 @@ const Communication = () =>{
               </a>
             </div>
             <a href={pdf8} className="link" style={{ textDecoration: "none" }}><img src={p8} /></a>
-            <p><b>Description:</b> {translate("pressrelation.item17")}</p>
+            <p><b>{translate("communication.company")}</b>{translate("communication.item32")}</p>
+            <p><b>Client: </b>{translate("communication.item33")}</p>
+            <p><b>{translate("communication.project")}</b>{translate("communication.item34")}</p>
+            <p><b>Mission: </b>{translate("communication.item35")}</p>
           </div>
           {/**------------------------------------------------------------------------------- */}
         </div>
