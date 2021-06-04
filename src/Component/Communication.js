@@ -27,7 +27,7 @@ const Communication = () =>{
     return (
       <div className="communication" id="communication">
         <div className="header" data-aos="fade-down-right">
-           {translate("communication.item1")}
+              Communication media
         </div>
         <div className="headermiddle">
         </div>

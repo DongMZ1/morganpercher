@@ -1,18 +1,18 @@
 @mixin newspaper() {
     padding-bottom: 100px;
-    padding-top: 140px;
+    padding-top: 80px;
     padding-right: 2vw;
     padding-left: 2vw;
     width: auto;
     @media (max-width: 1200px) {
-        padding-top: 150px;
+        padding-top: 80px;
     }
     @media (max-width: 750px) {
-        padding-top: 150px;
+        padding-top: 80px;
     }
     .header{
         font-family: 'Playfair Display', serif;
-        font-size: 4vw;
+        font-size: 6vw;
         text-align: center;
         text-transform: uppercase;
         
@@ -98,9 +98,7 @@
 }
 
 .communication{
-    //background-color: #E6E6FA;
-    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
-    clip-path: polygon(0% 10vw, 100% 0%, 100% 100%, 0% 100%);
+    background-color: #E6E6FA;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     @include newspaper();
 }

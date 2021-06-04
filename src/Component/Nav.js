@@ -26,8 +26,10 @@ const Nav = () =>{
     const changelang = () =>{
         if(i18n.language == 'fr'){
         i18n.changeLanguage('en');
+        setlangisfr(false);
         }else{
             i18n.changeLanguage('fr'); 
+            setlangisfr(true);
         }
     }
     useEffect(() => {
