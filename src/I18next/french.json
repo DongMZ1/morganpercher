@@ -94,5 +94,65 @@
     "item33":"Icade agence immobilière",
     "item34":"création de la brochure de présentation du nouveau programme immobilier",
     "item35":"il m'a été confié la tâche de rédiger et de mettre en page les éléments de cette brochure."
+  },
+  "writing":{
+    "title":"RÉDACTION",
+    "article":"Consulter l'article sur le site internet",
+    "company":"Entreprise: ",
+    "project":"Projet: ",
+    "file":"Dossier: ",
+    "public":"Parution: ",
+    "m1":"Rédaction d'articles",
+    "m2":"Interviews",
+    "m3":"Recherche",
+    "m4":"Prise de photographie",
+    "item1a":"GRAND REPORTAGE",
+    "item1b":"Agglomération du Pays de Dreux",
+    "item1c":"un été insolite dans l'Agglomération du Pays de Dreux",
+    "item1d":"réalisation d'un grand reportage estival pour le magazine, 6 pages sur les idées touristiques insolites pour découvrir la région. J'ai été amené à trouver le concept, chercher/contacter les intervenants, réaliser les interviews, prendre les photographies et rédiger les articles.",
+
+    "item2a":"AGGLORAMA NUMÉRO 13",
+    "item2b":"Agglomération du Pays de Dreux",
+    "item2c":"Magazine des mois de Septembre / Octobre / Novembre 2017",
+
+    "item3a":"",
+    "item3b":"",
+    "item3c":"",
+
+    "item4a":"",
+    "item4b":"",
+    "item4c":"",
+
+    "item5a":"",
+    "item5b":"",
+    "item5c":"",
+
+    "item6a":"",
+    "item6b":"",
+    "item6c":"",
+    
+    "item7a":"",
+    "item7b":"",
+    "item7c":"",
+
+    "item8a":"",
+    "item8b":"",
+    "item8c":"",
+    
+    "item9a":"",
+    "item9b":"",
+    "item9c":"",
+
+    "item10a":"",
+    "item10b":"",
+    "item10c":"",
+
+    "item11a":"",
+    "item11b":"",
+    "item11c":"",
+
+    "item12a":"",
+    "item12b":"",
+    "item12c":""
   }
 }
