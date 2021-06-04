@@ -32,14 +32,16 @@ const Presentation = () => {
     <div className="presentation" id="presentation">
       <div className="presentation_video_container">
       <VideoLooper source={video}
+      playsInline
       id='firstvideo'
-      muted={true}
+      muted
       width='100%'
       height='50vw'
     start={1.31}
     end={6.48} 
     isDebugMode={false}
-    autoPlay={true}/>
+    autoPlay
+    />
         {/*<video autoPlay loop muted playsInline width="100%" id="firstvideo">
           <source src={video} type="video/mp4" />
   </video>*/}
