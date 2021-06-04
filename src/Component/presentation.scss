@@ -1,9 +1,10 @@
-.presentation{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
-    
+.presentation{ 
     background-image: url("https://www.transparenttextures.com/patterns/fabric-plaid.png");
     overflow-x: hidden;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-right: 2vw;
+    padding-left: 2vw;
     background-color: #f2f2f2;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     font-family: 'Coming Soon', sans-serif;
@@ -42,11 +43,8 @@
         }
     }
     @media (max-width: 1360px){
-        padding-top: 140px;
+        padding-top: 100px;
     }
-    padding-top: 140px;
-    padding-right: 2vw;
-    padding-left: 2vw;
 }
 
 #firstvideo{

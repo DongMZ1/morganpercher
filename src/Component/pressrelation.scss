@@ -1,13 +1,13 @@
 @mixin newspaper() {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-right: 2vw;
     padding-left: 2vw;
     width: auto;
     @media (max-width: 1200px) {
-        padding-top: 130px;
+        padding-top: 80px;
     }
     @media (max-width: 750px) {
-        padding-top: 140px;
+        padding-top: 80px;
     }
     .header{
         font-family: 'Playfair Display', serif;

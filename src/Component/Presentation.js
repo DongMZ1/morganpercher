@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../SCSS/main.scss";
 import video from "../Video/morganpresentation.mp4";
 import { useTranslation } from "react-i18next";
+import VideoLooper from 'react-video-looper'
 
 const Presentation = () => {
   const [playvideo, setplayvideo] = useState(true);
@@ -30,9 +31,18 @@ const Presentation = () => {
   return (
     <div className="presentation" id="presentation">
       <div className="presentation_video_container">
-        <video autoPlay loop muted playsInline width="100%" id="firstvideo">
+      <VideoLooper source={video}
+      id='firstvideo'
+      muted={true}
+      width='100%'
+      height='50vw'
+    start={1.31}
+    end={6.48} 
+    isDebugMode={false}
+    autoPlay={true}/>
+        {/*<video autoPlay loop muted playsInline width="100%" id="firstvideo">
           <source src={video} type="video/mp4" />
-        </video>
+  </video>*/}
         <div
           className="presentation_videocontenttop"
           data-aos="fade-right"

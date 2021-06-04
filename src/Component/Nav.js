@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import '../SCSS/main.scss'
 import {SiGoogletranslate} from 'react-icons/si'
 import {AiOutlineLinkedin, AiOutlineMenuUnfold} from 'react-icons/ai'
+import {RiEnglishInput} from 'react-icons/ri'
 import useWindowSize from "@rooks/use-window-size"
 import {Link} from 'react-scroll'
 import { useTranslation } from 'react-i18next';
@@ -10,6 +11,7 @@ import { useTranslation } from 'react-i18next';
 
 const Nav = () =>{
     const [showicon, setshowicon] = useState('inline');
+    const [langisfr, setlangisfr] = useState(true);
     const [translate, i18n ] = useTranslation();
     const {innerWidth, innerHeight, outerHeight, outerWidth } = useWindowSize();
 
@@ -29,22 +31,22 @@ const Nav = () =>{
         }
     }
     useEffect(() => {
-        if(innerWidth > 1360){
+        if(innerWidth > 1340){
         setshowicon('inline');
         }
-        if(innerWidth < 1360){
+        if(innerWidth < 1340){
             setshowicon('none');
             }
     }, [innerWidth]);
 
     const closemenusmallerthan750 = () =>{
-        if(innerWidth < 1360){
+        if(innerWidth < 1340){
             setshowicon('none');
         }
     }
 
    return <div className='navb' data-aos="fade-down">
-       <AiOutlineMenuUnfold onClick={shownavicon} className='navbmenu' />
+       <div onClick={shownavicon} className='navbmenu'><span style={{fontSize:'30px', paddingLeft:'5px', paddingRight:'5px'}}>Menu</span></div>
        <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'110px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='presentation' spy={true} smooth={true} duration={100}>
        {translate("nav.item1")}
        </Link>
@@ -73,7 +75,7 @@ const Nav = () =>{
        {translate("nav.item7")}
        </Link>
        <a href='https://www.linkedin.com/in/morgan-percher-b78190170/'><AiOutlineLinkedin style={{display: `${showicon}`}} className='linkedinicon' fontSize='35px' /></a>
-       <a><SiGoogletranslate onClick={changelang} style={{display: `${showicon}`}} className='translator' fontSize='35px' /></a>
+       <div onClick={changelang} style={{display: `${showicon}`}} className='translator' >{langisfr? 'En':'Fr'}</div>
    </div>
 
 }
