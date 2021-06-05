@@ -48,7 +48,7 @@ const Nav = () =>{
     }
 
    return <div className='navb' data-aos="fade-down">
-       <div onClick={shownavicon} className='navbmenu'><span style={{fontSize:'30px', paddingLeft:'5px', paddingRight:'5px'}}>Menu</span></div>
+       <div onClick={shownavicon} className='navbmenu'><AiOutlineMenuUnfold /><span style={{fontSize:'30px', paddingLeft:'5px', paddingRight:'5px'}}>Menu</span></div>
        <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'110px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='presentation' spy={true} smooth={true} duration={100}>
        {translate("nav.item1")}
        </Link>
