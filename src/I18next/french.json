@@ -161,5 +161,35 @@
     "item12a":"GUIDE D'UTILISATION D'UNE APPLICATION",
     "item12b":"AXA Entreprise",
     "item12c":"Rédaction intégrale du manuel d'utilisation de la nouvelle application mobile pour les agents d'assurances."
+  },
+  "event":{
+    "title":"ORGANISATION D'ÉVÈNEMENTS",
+    "article":"Consulter l'article sur le site internet",
+    "company":"Entreprise: ",
+    "project":"Projet: ",
+    "file":"Dossier: ",
+    "public":"Parution: ",
+
+    "item1a":"SOIRÉE DE LANCEMENT DE LA NOUVELLE APPLICATION MOBILE",
+    "item1b":"AXA Entreprise",
+    "item1c":"organisation de l'évènement, du concept à la gestion sur place. Réflexion sur l'animation, logistique audiovisuelle pour filmer l'évènement, location de La Cité de l'Architecture et du Patrimoine à Paris. Gestion des prestataires tel que le traiteur, l'agence de location du mobilier décoratif et de l'agence des hôtesses",
+
+    "item2a":"SALON DE L'INNOVATION NORMANDE",
+    "item2b":"Transdev Rouen",
+    "item2c":"organisation de la présence du projet Rouen Normandy Autonomous Lab lors de l'évènement au parc des expositions de Rouen. Du concept du stand à la gestion sur place. Création de goodies promotionnels, mise en place d'un sondage, logistique de l'évènement, transport d'une navette électrique entre Paris et Rouen. Réflexion sur l'animation du stand, négociation de l'emplacement et du matériel disponible. Relation avec les partenaires. Gestion du personnel, hébergement et planning.",
+
+    "item3a":"FESTIVAL DE L'EXCELLENCE NORMANDE",
+    "item3b":"Transdev Rouen",
+    "item3c":"organisation de la présence du projet Rouen Normandy Autonomous Lab lors de l'évènement au parc des expositions de Caen. Du concept du stand à la gestion sur place. Création de goodies promotionnels, mise en place d'un sondage, logistique de l'évènement, transport d'une voiture électrique entre Paris et Caen. Réflexion sur l'animation du stand, négociation de l'emplacement et du matériel disponible. Relation avec les partenaires. Gestion du personnel, hébergement et planning.",
+
+    "item4a":"JOURNÉE MONDIALE DES OCÉANS",
+    "item4b":"recherche des intervenants, planification des interventions, vérification des sujets, préparation du matériel, gestion du parcours client, promotion de l'évènement, invitation des journalistes et partenaires institutionnelles",
+    "item4c":"En vidéo:  ",
+    "item4d":"Interviews des intervenants de la Journée Mondiale des Océans",
+    "item4e":"Vidéo réalisée après avoir interviewé l'ensemble des intervenants de l'évènement : ",
+    "item4f":"L'association un Océan de vie",
+    "item4g":"L'association Tara Expédition",
+    "item4h":"L'association Coral Guardian",
+    "item4i":"Bernard Séret - Chercheur spécialiste des requins"
   }
 }

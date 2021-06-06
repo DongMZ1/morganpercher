@@ -38,7 +38,7 @@ const WritingOrgan = () => {
       <div className="headermiddle" />
       {/**first report ------------------------------------------------------------- */}
 
-      <div className="regularcol" data-aos="fade-left" data-aos-offset="100">
+      <div className="regularcol" data-aos="fade-down" data-aos-offset="100">
         <div className="regularcol_reportheader">
           <a href={pdf1} className="link" style={{ textDecoration: "none" }}>
             {translate("writing.item1a")} <FiLink />

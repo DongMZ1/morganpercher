@@ -4,7 +4,7 @@
     "item2": "Press Relation",
     "item3": "Communication Media",
     "item4": "Writing",
-    "item5": "event",
+    "item5": "EVENT ORGANIZATION",
     "item6": "Professional experiences",
     "item7": "Education"
   },
@@ -163,5 +163,38 @@
     "item12b":"AXA Entreprise",
     "item12c":"Complete writing of the user manual for the new mobile application for insurance agents."
 
+  },
+  "event":{
+    "title":"EVENT ORGANIZATION",
+    "article":"Read the article on the website",
+    "company":"Company: ",
+    "project":"Project: ",
+    "file":"File: ",
+    "public":"Publication: ",
+
+    "item1a":"LAUNCH OF THE NEW MOBILE APPLICATION",
+    "item1b":"AXA Entreprise",
+    "item1c":"organization of the event, from concept to on-site management. Reflection on animation, audiovisual logistics to film the event, rental of La Cité de l'Architecture et du Patrimoine in Paris. Management of service providers such as the caterer, the decorative furniture rental agency and the hostess agency",
+
+    "item2a":"NORMANDY INNOVATION FAIR",
+    "item2b":"Transdev Rouen",
+    "item2c":"organization of the presence of the Rouen Normandy Autonomous Lab project during the event at the Rouen exhibition center. From the stand concept to on-site management. Creation of promotional goodies, setting up of a survey, logistics of the event, transport of an electric shuttle between Paris and Rouen. Reflection on the animation of the stand, negotiation of the location and the available material. Relationship with partners. Staff management, accommodation and planning.",
+
+    "item3a":"FESTIVAL OF NORMANDY EXCELLENCE",
+    "item3b":"Transdev Rouen",
+    "item3c":"organization of the presence of the Rouen Normandy Autonomous Lab project during the event at the Caen exhibition center. From the stand concept to on-site management. Creation of promotional goodies, setting up of a survey, logistics of the event, transport of an electric car between Paris and Caen. Reflection on the animation of the stand, negotiation of the location and the available material. Relationship with partners. Staff management, accommodation and planning.",
+
+    "item4a":"WORLD OCEAN DAY",
+    "item4b":"research of speakers, planning of interventions, verification of subjects, preparation of material, management of the customer journey, promotion of the event, invitation of journalists and institutional partners",
+    "item4c":"In the video:  ",
+    "item4d":"Interviews of the speakers of the World Oceans Day",
+    "item4e":"Video produced after having interviewed all the speakers of the event: ",
+    "item4f":"The association an ocean of life",
+    "item4g":"The Tara Expedition association",
+    "item4h":"The Coral Guardian association",
+    "item4i":"Bernard Séret - Shark specialist"
+
+
   }
+  
 }
