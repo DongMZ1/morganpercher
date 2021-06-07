@@ -3,10 +3,9 @@
 @import "navitem.scss";
 @import '../Component/presentation.scss';
 @import '../Component/communication.scss';
-@import '../Component/education.scss';
+@import '../Component/educationAndExperience.scss';
 @import '../Component/pressrelation.scss';
 @import '../Component/writingorgan.scss';
-@import '../Component/professional.scss';
 @import '../Component/footer.scss';
 @import '../Component/event.scss';
 
@@ -32,7 +31,7 @@ body{
     position: fixed;
     align-items: center;
     display: flex;
-    font-family: "Caveat", sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     width: 100vw;
     .navbmenu{
         font-family: 'Nanum Pen Script';
@@ -43,10 +42,10 @@ body{
     }
     & >*{
         cursor: pointer;
-        margin-left: 0.7vw;
-        margin-right: 0.7vw;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
     }
-    @media (max-width: 1340px) {
+    @media (max-width: 1370px) {
         .navbmenu{
             display: flex;
         }

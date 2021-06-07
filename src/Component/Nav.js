@@ -33,16 +33,16 @@ const Nav = () =>{
         }
     }
     useEffect(() => {
-        if(innerWidth > 1340){
+        if(innerWidth > 1370){
         setshowicon('inline');
         }
-        if(innerWidth < 1340){
+        if(innerWidth < 1370){
             setshowicon('none');
             }
     }, [innerWidth]);
 
     const closemenusmallerthan750 = () =>{
-        if(innerWidth < 1340){
+        if(innerWidth < 1370){
             setshowicon('none');
         }
     }
@@ -53,7 +53,7 @@ const Nav = () =>{
        {translate("nav.item1")}
        </Link>
 
-       <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'130px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='pressrelation' spy={true} smooth={true} duration={100}>
+       <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'135px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='pressrelation' spy={true} smooth={true} duration={100}>
        {translate("nav.item2")}
        </Link>
 
@@ -61,19 +61,19 @@ const Nav = () =>{
        {translate("nav.item3")}
        </Link>
 
-       <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'100px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='writingorgan' spy={true} smooth={true} duration={100}>
+       <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'90px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='writingorgan' spy={true} smooth={true} duration={100}>
        {translate("nav.item4")}
        </Link>
 
-       <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'200px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='event' spy={true} smooth={true} duration={100}>
+       <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'220px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='event' spy={true} smooth={true} duration={100}>
        {translate("nav.item5")}
        </Link>
 
-       <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'220px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='prefessional' spy={true} smooth={true} duration={100}>
+       <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'240px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='prefessional' spy={true} smooth={true} duration={100}>
        {translate("nav.item6")}
        </Link>
 
-       <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'100px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='education' spy={true} smooth={true} duration={100}>
+       <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'90px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='education' spy={true} smooth={true} duration={100}>
        {translate("nav.item7")}
        </Link>
        <div style={{display: `${showicon}`}} className='translator' >CV</div>

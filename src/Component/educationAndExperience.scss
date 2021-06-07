@@ -1,0 +1,80 @@
+$gutter: 30px;
+$border-width: 4px;
+$dot-diameter: 8px;
+
+
+.education {
+  font-family: 'Baloo Tammudu 2';
+  width:100vw;
+  padding: 90px 10px 10px 10px;
+  background:#fff;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left:calc(33% + 15px);
+    bottom: 0px;
+    width: 4px;
+    background: black;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+}
+
+.entry {
+  clear: both;
+  text-align: left;
+  position: relative;
+  .title {
+    margin-bottom: .5em;
+    float: left;
+    width: 33%;
+    padding-right: $gutter;
+    text-align: right;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border: 4px solid black;
+      background-color:#fff;
+      border-radius:100%;
+      top: 15%;
+      right: -23px;
+      z-index: 99;
+    }
+    h3 {
+      margin: 0;
+      font-size: 120%;
+    }
+    p {
+      margin: 0;
+      font-size: 100%;
+    }
+  }
+  .body {
+    margin: 0 0 3em;
+    float: right;
+    width: 66%;
+    padding-left: $gutter;
+    p {
+      line-height: 1.4em;
+      &:first-child {
+        margin-top: 0;
+        font-weight: 400;
+      }
+    }
+    ul {
+      padding-left: 0;
+      list-style-type: none;
+      li:before {
+        margin-right: .5em;
+      }
+    }
+  }
+}
