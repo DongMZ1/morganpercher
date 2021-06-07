@@ -191,5 +191,53 @@
     "item4g":"L'association Tara Expédition",
     "item4h":"L'association Coral Guardian",
     "item4i":"Bernard Séret - Chercheur spécialiste des requins"
+  },
+
+  "experience":{
+      "school":"Etablissement: ",
+      "degree":"Diplôme: ",
+      "study":"Domaine d’études: ",
+      "result":"Résultat obtenu: ",
+      "grad":"Année d’obtention du diplôme: ",
+
+      "item1a":"CCI Eure",
+      "item1b":"Formation en anglais",
+      "item1c":"Anglais",
+      "item1d":"TOEIC 840",
+      "item1f":"2016",
+
+      "item2a":"Art et communication",
+      "item2b":"Formation en P.A.O",
+      "item2c":"Communications graphiques",
+      "item2d":"Diplômé",
+      "item2f":"2015",
+
+      "item3a":"INSEEC U",
+      "item3b":"Maîtrise en Communication - (Equivalent Fr : Master 2)",
+      "item3c":"Management, Production et Promotion des Médias",
+      "item3d":"Diplômé",
+      "item3f":"2013",
+
+      "item4a":"INSEEC U.",
+      "item4b":"Maîtrise en Communication - (Equivalent Fr : Master 1)",
+      "item4c":"Communication et publicité",
+      "item4d":"Diplômé",
+      "item4f":"2012",
+
+      "item5a":"Université Laval",
+      "item5b":"Certificat",
+      "item5c":"Comportement du consommateur",
+      "item5d":"Diplômé",
+      "item5f":"2011",
+
+      "item6a":"Ecole de Management de Normandie",
+      "item6b":"Baccalauréat en Communication (Equivalent FR : Bachelor/Licence)",
+      "item6c":"Communication internationale et interculturelle",
+      "item6d":"Diplômé",
+      "item6f":"2011"
+      
+  },
+  "edu":{
+    
   }
 }

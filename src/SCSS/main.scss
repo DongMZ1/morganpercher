@@ -43,8 +43,8 @@ body{
     }
     & >*{
         cursor: pointer;
-        margin-left: 1vw;
-        margin-right: 1vw;
+        margin-left: 0.7vw;
+        margin-right: 0.7vw;
     }
     @media (max-width: 1340px) {
         .navbmenu{
@@ -79,7 +79,7 @@ body{
         //cursor: pointer;
         font-weight: bold;
         color: #8cb6ec;
-        font-size: 35px;
+        font-size: 26px;
         @media (max-width: 1250px) {
             margin-left: 10px;
         }

@@ -193,8 +193,54 @@
     "item4g":"The Tara Expedition association",
     "item4h":"The Coral Guardian association",
     "item4i":"Bernard Séret - Shark specialist"
+  },
+  "experience":{
+    "school":"Institution: ",
+    "degree":"Diploma: ",
+    "study":"Field of study: ",
+    "result":"Result obtained: ",
+    "grad":"Year of graduation: ",
+
+    "item1a":"CCI Eure",
+      "item1b":"Training in English",
+      "item1c":"English",
+      "item1d":"TOEIC 840",
+      "item1f":"2016",
+
+      "item2a":"Art and Communication",
+      "item2b":"Training in P.A.O",
+      "item2c":"Graphic Communications",
+      "item2d":"Graduate",
+      "item2f":"2015",
+
+      "item3a":"INSEEC U",
+      "item3b":"Master 2 in Communication",
+      "item3c":"Management, Production and Promotion of Media",
+      "item3d":"Graduate",
+      "item3f":"2013",
+
+      "item4a":"INSEEC U",
+      "item4b":"Master 1 in Communication",
+      "item4c":"Communication and Advertising",
+      "item4d":"Graduate",
+      "item4f":"2012",
+
+      "item5a":"Laval University",
+      "item5b":"Certificate",
+      "item5c":"Consumer behaviour",
+      "item5d":"Graduate",
+      "item5f":"2011",
+
+      "item6a":"Normandy School of Management",
+      "item6b":"Baccalauréat en Communication (Equivalent FR : Bachelor/Licence)",
+      "item6c":"International and intercultural communication",
+      "item6d":"Graduate",
+      "item6f":"2011"
 
 
+  },
+  "edu":{
+    
   }
   
 }

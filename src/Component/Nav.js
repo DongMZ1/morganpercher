@@ -76,6 +76,7 @@ const Nav = () =>{
        <Link onClick={closemenusmallerthan750} className="link_bordergrow" style={{width:'100px', display: `${showicon}`, textDecoration:'none', color:'white'}} to='education' spy={true} smooth={true} duration={100}>
        {translate("nav.item7")}
        </Link>
+       <div style={{display: `${showicon}`}} className='translator' >CV</div>
        <a href='https://www.linkedin.com/in/morgan-percher-b78190170/'><AiOutlineLinkedin style={{display: `${showicon}`}} className='linkedinicon' fontSize='35px' /></a>
        <div onClick={changelang} style={{display: `${showicon}`}} className='translator' >{langisfr? 'En':'Fr'}</div>
    </div>

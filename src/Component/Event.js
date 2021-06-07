@@ -2,9 +2,9 @@ import React from "react";
 import "../SCSS/main.scss";
 import { useTranslation } from "react-i18next";
 //images
-import p1 from "../event/p1.webp";
-import p2 from "../event/p2.webp";
-import p3 from "../event/p3.webp";
+import p1 from "../event/p1.jpg";
+import p2 from "../event/p2.jpg";
+import p3 from "../event/p3.jpg";
 import eventvideo from '../event/event.mp4'
 import coverpage from '../event/cover.png'
 
