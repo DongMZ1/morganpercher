@@ -51,6 +51,11 @@ $dot-diameter: 8px;
     p {
       font-size: 100%;
     }
+    h5 {
+      @media (max-width: 600px) {
+        font-size: 18px;
+      }
+    }
   }
   .body {
     margin: 0 0 5em;
