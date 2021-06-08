@@ -363,7 +363,7 @@
     border: none;
     padding-top: 7px;
     height: 35px;
-    background-color: #87CEEB;
+    background-color: skyblue;
     color: white;
     font-size: 14px;
     font-style: italic;
@@ -378,8 +378,8 @@
         height: 10px;
         top: -5px;
         left: -5px;
-        border-top: 2px solid #87CEEB;
-        border-left: 2px solid #87CEEB;
+        border-top: 2px solid skyblue;
+        border-left: 2px solid skyblue;
         transition: all 0.25s;
       }
       &:hover:before, &:hover:after {
@@ -393,8 +393,8 @@
         height: 10px;
         bottom: -5px;
         right: -5px;
-        border-bottom: 2px solid #87CEEB;
-        border-right: 2px solid #87CEEB;
+        border-bottom: 2px solid skyblue;
+        border-right: 2px solid skyblue;
         transition: all 0.25s;
       }
 }
