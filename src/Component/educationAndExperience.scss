@@ -13,7 +13,7 @@ $dot-diameter: 8px;
     content: '';
     position: absolute;
     top: 0px;
-    left:calc(33% + 15px);
+    left:calc(36% + 15px);
     bottom: 0px;
     width: 4px;
     background: black;
@@ -32,7 +32,7 @@ $dot-diameter: 8px;
   .title {
     margin-bottom: 5em;
     float: left;
-    width: 33%;
+    width: 36%;
     padding-right: $gutter;
     text-align: right;
     position: relative;
@@ -45,7 +45,7 @@ $dot-diameter: 8px;
       background-color:#fff;
       border-radius:100%;
       top: 15%;
-      right: -23px;
+      right: -24px;
       z-index: 2;
     }
     p {
@@ -55,7 +55,7 @@ $dot-diameter: 8px;
   .body {
     margin: 0 0 5em;
     float: right;
-    width: 66%;
+    width: 63%;
     padding-left: $gutter;
     p {
       padding-right: 10px;
