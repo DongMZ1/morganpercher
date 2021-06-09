@@ -19,6 +19,7 @@ const Footer = () => {
       <h7>514-231-3140</h7>
       <h7>Montréal</h7>
       <h7>©2021 par Morgan Percher</h7>
+      <h7>design and build by Mingzhou Dong</h7>
     </div>
   );
 };
