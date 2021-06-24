@@ -1,6 +1,6 @@
 @mixin newspaper() {
     padding-top: 60px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     padding-right: 2vw;
     padding-left: 2vw;
     width: auto;
@@ -12,23 +12,22 @@
     }
     .header{
         font-family: 'Playfair Display', serif;
-        font-size: 6vw;
+        font-size: 4vw;
         text-align: center;
         text-transform: uppercase;
         
     }
     .headerwrap{
         font-size: 15px;
-        padding: 20px;
+        //padding: 20px;
         border: 2px black solid;
     }
     .headermiddle{
-        height: 5px;
+        height: 3px;
         font-family: 'Playfair Display', serif;
         text-align: center;
         text-transform: uppercase;
-        padding: 10px 0px;
-        margin-top: 30px;
+        margin-top: 5px;
         font-size: 25px;
         border-top:2px black solid;
         width: 100%;
@@ -37,27 +36,36 @@
         }
     }
     .regularcol{
+        &_video{
+            grid-column: 4;
+            @media (max-width: 1360px) {
+                grid-column: 3;
+            }
+            @media (max-width: 1050px) {
+                grid-column: 2;
+            }
+            @media (max-width: 600px) {
+                grid-column: 1;
+            }
+        }
         //width: 100%;
         margin: 0px 0px 0px 0px;
-        padding: 0px 30px 0px 30px;
+        padding: 0px 10px 0px 10px;
         border-right: 2px black solid; 
-        font-family: 'Noticia Text', sans-serif;
+        font-family: 'Playfair Display', sans-serif;
         font-weight: 500;
         @media (max-width: 1050px) {
             border-right: none;
         }
         p{
-            font-size: 18px;
-            padding: 20px 0px 10px 0px;
-            @media (max-width: 500px) {
-                font-size: 16px;
-            }
+            font-size: 16px;
+            padding: 5px 0px 5px 0px;
         }
         &_type{
             font-style: italic;
             font-family: 'Playfair Display', serif;
             text-align: center;
-            font-size: 33px;
+            font-size: 25px;
             padding: 30px 0px 30px 0px;
             border-top: 2px brown solid;
             border-bottom: 2px brown solid;
@@ -66,27 +74,33 @@
             text-transform: uppercase;
             font-style: italic;
             font-family: 'Playfair Display', serif;
-            font-size: 27px;
+            font-size: 22px;
             text-align: center;
-            padding: 0px 0px 20px 0px;
+            padding: 0px 0px 5px 0px;
            // border-top: 2px brown solid;
             border-bottom: 2px brown solid;
             @media (max-width: 600px) {
-                font-size: 18px;
+                font-size: 17px;
             }
         }
     }
     &_grid_container{
         font-family: 'Droid Serif', sans-serif;
-        margin-top: 30px;
+        margin-top: 10px;
         //justify-items: center;
         //align-items: center;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: auto;
+        overflow: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         @media (max-width: 1360px) {
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
         }
         @media (max-width: 1050px) {
+            grid-template-columns: 1fr 1fr;
+        }
+        @media (max-width: 600px) {
             grid-template-columns: 1fr;
         }
     };

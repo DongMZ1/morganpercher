@@ -1,46 +1,39 @@
 .presentation{ 
     background-image: url("https://www.transparenttextures.com/patterns/fabric-plaid.png");
     overflow-x: hidden;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-top: 100px;
     padding-right: 2vw;
     padding-left: 2vw;
     background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    font-family: 'Coming Soon', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
+    @media (max-width: 1000px) {
+        display: block;
+    }
     &_video_container{
         position: relative;
+        width: 50vw;
+        @media (max-width: 1000px) {
+            width: 100%;
+        }
     }
     &_videocontenttop{
         position: absolute;
-        padding: 10px 5vw;
-        width: 100%;
-        bottom: 19vw;
-        padding-left: 50%;
+        top: 6vw;
+        width: 95%;
+        padding-left: 46%;
         color: white;
-        font-size: 5vw;
-        @media (max-width: 700px) {
-            bottom: 16vw;
-        }
+        font-size: 3vw;
         &_subheader{
-            font-size: 3vw;
-            @media (max-width: 800px) {
-                font-size: 1.2rem;
-            }
-            @media (max-width: 550px) {
-                font-size: 0.8rem;
-            }
+            font-size: 20px;
         }
     };
     &_whoiam{
-        font-size: 21px; 
-        padding: 50px 10vw;
-        @media (max-width: 1350px) {
-            font-size: 18px;
-        }
-        @media (max-width: 500px){
-            font-size: 16px;
-        }
+        font-size: 16px; 
+        padding: 0px 2vw;
     }
     @media (max-width: 1360px){
         padding-top: 100px;

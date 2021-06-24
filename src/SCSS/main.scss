@@ -33,6 +33,10 @@ body{
     display: flex;
     font-family: 'Playfair Display', sans-serif;
     width: 100vw;
+    folderable{
+        display: flex;
+        flex-direction: column;
+    }
     .navbmenu{
         font-family: 'Nanum Pen Script';
         color: skyblue;

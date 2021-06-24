@@ -68,7 +68,7 @@ const PressRelation = () => {
           <p><b>Description:</b> {translate("pressrelation.item7")}</p>
         </div>
         {/**-------------------------------------player---------------------------------------- */}
-        <div className="regularcol" data-aos="fade-right" data-aos-offset="100" >
+        <div className="regularcol regularcol_video" data-aos="fade-right" data-aos-offset="100" style={{gridRow:'1 / span 2'}}>
           <div className="regularcol_header">
               {translate("pressrelation.item20")} 
           </div>

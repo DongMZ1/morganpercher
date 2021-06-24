@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import "../SCSS/main.scss";
 import video from "../Video/morganpresentation.mp4";
 import { useTranslation } from "react-i18next";
-import VideoLooper from 'react-video-looper'
+import VideoLooper from "react-video-looper";
+import ReactPlayer from 'react-player'
 
-const Presentation = () => {
+const Presentation = ({innerWidth}) => {
   const [playvideo, setplayvideo] = useState(true);
   const [translate, i18n] = useTranslation();
   const playorparsevideo = () => {
@@ -19,7 +20,7 @@ const Presentation = () => {
   };
 
   //on iphone there is a bug that the video does not auto play, use useeffect to solve it
- /*
+  /*
   useEffect(
     ()=>{
       const v = document.getElementById("firstvideo");
@@ -31,20 +32,21 @@ const Presentation = () => {
   return (
     <div className="presentation" id="presentation">
       <div className="presentation_video_container">
-      <VideoLooper source={video}
-      playsInline
-      id='firstvideo'
-      muted
-      width='100%'
-      height='50vw'
-    start={1.31}
-    end={6.48} 
-    isDebugMode={false}
-    autoPlay
-    />
-        {/*<video autoPlay loop muted playsInline width="100%" id="firstvideo">
-          <source src={video} type="video/mp4" />
-  </video>*/}
+        
+        <VideoLooper
+          source={video}
+          playsInline
+          id="firstvideo"
+          muted
+          objectFit
+          height={innerWidth>1000 ? '28vw' : '52vw'}
+          start={1.31}
+          end={6.48}
+          isDebugMode={false}
+          autoPlay
+        />
+        
+        
         <div
           className="presentation_videocontenttop"
           data-aos="fade-right"
@@ -52,7 +54,9 @@ const Presentation = () => {
           data-aos-easing="linear"
         >
           {translate("presentation.item")}
-          <div className='presentation_videocontenttop_subheader'>{translate("presentation.item0")}</div>
+          <div className="presentation_videocontenttop_subheader">
+            {translate("presentation.item0")}
+          </div>
         </div>
       </div>
 
@@ -76,15 +80,15 @@ const Presentation = () => {
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          style={{ marginLeft: "10vw" }}
+          style={{ marginLeft: "5vw" }}
         >
-          <h4>{translate("presentation.item3")}</h4>
-          <h4>{translate("presentation.item4")}</h4>
-          <h4>{translate("presentation.item5")}</h4>
-          <h4>{translate("presentation.item6")}</h4>
-          <h4>{translate("presentation.item7")}</h4>
-          <h4>{translate("presentation.item8")}</h4>
-          <h4>{translate("presentation.item9")}</h4>
+          <h5>{translate("presentation.item3")}</h5>
+          <h5>{translate("presentation.item4")}</h5>
+          <h5>{translate("presentation.item5")}</h5>
+          <h5>{translate("presentation.item6")}</h5>
+          <h5>{translate("presentation.item7")}</h5>
+          <h5>{translate("presentation.item8")}</h5>
+          <h5>{translate("presentation.item9")}</h5>
         </div>
         <br />
         <div
@@ -100,7 +104,6 @@ const Presentation = () => {
             <b>via LinkedIn!</b>
           </a>
         </div>
-
       </div>
     </div>
   );
