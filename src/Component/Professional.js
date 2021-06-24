@@ -5,19 +5,19 @@ const Professtional = () =>{
     const [translate, i18n] = useTranslation();
     return <div className='education' id='prefessional'>
 
-<div class="entry">
+<div className="entry">
     <div class="body" data-aos="fade-left">
      <h1>{translate("edu.title")}</h1>
     </div>
   </div>
 
-  <div class="entry">
-    <div class="title">
+  <div className="entry">
+    <div className="title">
       <h5 data-aos="fade-right"><b>{translate("exper.job")}</b>{translate("exper.item1a")}</h5>
       <h5 data-aos="fade-right"><b>{translate("exper.company")}</b>{translate("exper.item1b")}</h5>
       <h5 data-aos="fade-right"><b>Dates : </b>{translate("exper.item1c")}</h5>
     </div>
-    <div class="body">
+    <div className="body">
       <p data-aos="fade-left"><b>{translate("exper.description")}</b>{translate("exper.item1d")}</p>
       <p data-aos="fade-left"><b>{translate("exper.function")}</b>{translate("exper.item1e")}</p>
       <p data-aos="fade-left"><b>💭 Communication : </b>{translate("exper.item1f")}</p>

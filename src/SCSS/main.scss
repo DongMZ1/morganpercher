@@ -1,6 +1,7 @@
 @import "button.scss";
 @import "card.scss";
 @import "navitem.scss";
+@import "transtiongroup.scss";
 @import '../Component/presentation.scss';
 @import '../Component/communication.scss';
 @import '../Component/educationAndExperience.scss';
@@ -11,20 +12,17 @@
 
 
 body{
-    //when use AOS, need to include this
-    //overflow-x:hidden;
-    //padding: 0px 2vw 0px 2vw;
-    background-color: #fffffe;
-    
+    background-color: #fffffe;    
 }
 
 
 .navb{
+    user-select: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #fffffe;
     top: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-right: 3vw;
     padding-left: 1vw;
     z-index: 3;
@@ -33,34 +31,83 @@ body{
     display: flex;
     font-family: 'Playfair Display', sans-serif;
     width: 100vw;
-    folderable{
-        display: flex;
-        flex-direction: column;
-    }
-    .navbmenu{
-        font-family: 'Nanum Pen Script';
-        color: skyblue;
-        display: none;
-        background-color: white;
-        font-size: 45px;
-    }
-    & >*{
-        cursor: pointer;
-        margin-left: 0.5vw;
-        margin-right: 0.5vw;
-    }
-    @media (max-width: 1370px) {
-        .navbmenu{
-            display: flex;
-        }
+    @media (max-width: 1000px) {
         padding-left: 30px;
-        align-items: end;
+        align-items: flex-start;
         padding-top: 5px;
         padding-bottom: 5px;
         height: auto;
         display: flex;
         flex-direction: column;
         position: fixed;
+    }
+    .outerdropdownwrapper{
+        position: relative;
+        .dropdownwrapper{
+        position: absolute;
+        width: max-content;
+        background-color: white;
+        padding: 10px 10px 0px 10px;
+        @media (max-width:1000px) {
+            position: relative;
+            background-color: transparent;
+            padding: 0px;
+            width:auto;
+        }
+        }
+     }
+    .naviicon{
+        color: skyblue;
+        border: 2px transparent solid;
+        font-weight: 600;
+        font-size: 18px;
+        text-transform: uppercase;
+        &::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: skyblue;
+            transition: all .3s;
+        }
+        &:hover{
+          &::after{
+            background-color: blue;
+            width: 100%;  
+          }
+          color: blue;
+        }
+        
+    }
+    .navbmenu{
+        font-family: 'Playfair Display';
+        color: skyblue;
+        display: none;
+        background-color: #fffffe;
+        font-size: 45px;
+        @media (max-width: 1000px) {
+                display: flex;
+        }
+    }
+
+    .pressdropdown{
+        font-family: 'Playfair Display';
+        color: skyblue;
+        background-color: white;
+        text-align: center;
+        font-size: 35px;
+        padding-bottom: 8px;
+        &:hover{
+            color: blue;
+        }
+        @media (max-width: 1000px) {
+            display: none;
+        }
+    }
+    & >*{
+        cursor: pointer;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
     }
 
     @keyframes movetranslator {
@@ -104,35 +151,7 @@ body{
 
 
 
-.contact{
-    @keyframes moveupsidedown {
-        0%, 50%, 100% {
-          transform: translateY(0);
-        }
-        25%{
-            transform: translateY(10%); 
-        }
-        75% {
-            transform: translateY(-10%);
-        }
-      }
-    
-    padding: 5vw 15vw;
-    .icon{
-        cursor: pointer;
-        font-size: 4rem;
-        transition: all;
-        transition-timing-function: ease-in-out;
-        transition-duration: 0.5s;
-        &:hover{
-            color: blue;
-            animation: moveupsidedown 0.1s infinite;
-        }
-    }
-    a {
-        text-decoration: none;
-    }
-}
+
 
 
 

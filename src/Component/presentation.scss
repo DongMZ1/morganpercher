@@ -27,8 +27,14 @@
         padding-left: 46%;
         color: white;
         font-size: 3vw;
+        @media (max-width: 600px) {
+            font-size: 21px;
+        }
         &_subheader{
             font-size: 20px;
+            @media (max-width: 600px) {
+                font-size: 17px;
+            }
         }
     };
     &_whoiam{
