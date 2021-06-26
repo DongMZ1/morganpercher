@@ -69,29 +69,29 @@ const WritingOrgan = () => {
             </p>
             <div>
               <TiMicrophoneOutline
-                style={{ paddingLeft: "10px", fontSize: "50px" }}
+                style={{ paddingLeft: "10px", fontSize: "35px" }}
               />
-              <span style={{ fontSize: "22px" }}>
+              <span style={{ fontSize: "18px" }}>
                 {translate("writing.m2")}
               </span>
             </div>
             <div>
-              <GrArticle style={{ paddingLeft: "10px", fontSize: "50px" }} />
-              <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+              <GrArticle style={{ paddingLeft: "10px", fontSize: "35px" }} />
+              <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
                 {translate("writing.m1")}
               </span>
             </div>
             <div>
               <AiOutlineCamera
-                style={{ paddingLeft: "10px", fontSize: "50px" }}
+                style={{ paddingLeft: "10px", fontSize: "35px" }}
               />
-              <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+              <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
                 {translate("writing.m4")}
               </span>
             </div>
             <div>
-              <BsSearch style={{ paddingLeft: "10px", fontSize: "50px" }} />
-              <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+              <BsSearch style={{ paddingLeft: "10px", fontSize: "35px" }} />
+              <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
                 {translate("writing.m3")}
               </span>
             </div>
@@ -125,27 +125,27 @@ const WritingOrgan = () => {
           </p>
           <div>
             <TiMicrophoneOutline
-              style={{ paddingLeft: "10px", fontSize: "50px" }}
+              style={{ paddingLeft: "10px", fontSize: "35px" }}
             />
-            <span style={{ fontSize: "22px" }}>{translate("writing.m2")}</span>
+            <span style={{ fontSize: "18px" }}>{translate("writing.m2")}</span>
           </div>
           <div>
-            <GrArticle style={{ paddingLeft: "10px", fontSize: "50px" }} />
-            <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+            <GrArticle style={{ paddingLeft: "10px", fontSize: "35px" }} />
+            <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
               {translate("writing.m1")}
             </span>
           </div>
           <div>
             <AiOutlineCamera
-              style={{ paddingLeft: "10px", fontSize: "50px" }}
+              style={{ paddingLeft: "10px", fontSize: "35px" }}
             />
-            <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+            <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
               {translate("writing.m4")}
             </span>
           </div>
           <div>
-            <BsSearch style={{ paddingLeft: "10px", fontSize: "50px" }} />
-            <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+            <BsSearch style={{ paddingLeft: "10px", fontSize: "35px" }} />
+            <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
               {translate("writing.m3")}
             </span>
           </div>
@@ -173,27 +173,27 @@ const WritingOrgan = () => {
           </p>
           <div>
             <TiMicrophoneOutline
-              style={{ paddingLeft: "10px", fontSize: "50px" }}
+              style={{ paddingLeft: "10px", fontSize: "35px" }}
             />
-            <span style={{ fontSize: "22px" }}>{translate("writing.m2")}</span>
+            <span style={{ fontSize: "18px" }}>{translate("writing.m2")}</span>
           </div>
           <div>
-            <GrArticle style={{ paddingLeft: "10px", fontSize: "50px" }} />
-            <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+            <GrArticle style={{ paddingLeft: "10px", fontSize: "35px" }} />
+            <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
               {translate("writing.m1")}
             </span>
           </div>
           <div>
             <AiOutlineCamera
-              style={{ paddingLeft: "10px", fontSize: "50px" }}
+              style={{ paddingLeft: "10px", fontSize: "35px" }}
             />
-            <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+            <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
               {translate("writing.m4")}
             </span>
           </div>
           <div>
-            <BsSearch style={{ paddingLeft: "10px", fontSize: "50px" }} />
-            <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+            <BsSearch style={{ paddingLeft: "10px", fontSize: "35px" }} />
+            <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
               {translate("writing.m3")}
             </span>
           </div>
@@ -221,27 +221,27 @@ const WritingOrgan = () => {
           </p>
           <div>
             <TiMicrophoneOutline
-              style={{ paddingLeft: "10px", fontSize: "50px" }}
+              style={{ paddingLeft: "10px", fontSize: "35px" }}
             />
-            <span style={{ fontSize: "22px" }}>{translate("writing.m2")}</span>
+            <span style={{ fontSize: "18px" }}>{translate("writing.m2")}</span>
           </div>
           <div>
-            <GrArticle style={{ paddingLeft: "10px", fontSize: "50px" }} />
-            <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+            <GrArticle style={{ paddingLeft: "10px", fontSize: "35px" }} />
+            <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
               {translate("writing.m1")}
             </span>
           </div>
           <div>
             <AiOutlineCamera
-              style={{ paddingLeft: "10px", fontSize: "50px" }}
+              style={{ paddingLeft: "10px", fontSize: "35px" }}
             />
-            <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+            <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
               {translate("writing.m4")}
             </span>
           </div>
           <div>
-            <BsSearch style={{ paddingLeft: "10px", fontSize: "50px" }} />
-            <span style={{ fontSize: "22px", paddingLeft: "5px" }}>
+            <BsSearch style={{ paddingLeft: "10px", fontSize: "35px" }} />
+            <span style={{ fontSize: "18px", paddingLeft: "5px" }}>
               {translate("writing.m3")}
             </span>
           </div>

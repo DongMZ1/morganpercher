@@ -101,7 +101,7 @@ const Presentation = ({innerWidth}) => {
             style={{ textDecoration: "none" }}
             href="https://www.linkedin.com/in/morgan-percher-b78190170/"
           >
-            <b>via LinkedIn!</b>
+            <b>via LinkedIn !</b>
           </a>
         </div>
       </div>

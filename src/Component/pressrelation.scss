@@ -41,7 +41,7 @@
     .regularcol{
         &_video{
             grid-column: 4;
-            @media (max-width: 1300px) {
+            @media (max-width: 1250px) {
                 grid-column: 3;
             }
             @media (max-width: 1000px) {

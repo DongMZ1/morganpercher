@@ -85,7 +85,7 @@
         overflow: auto;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-        @media (max-width: 1300px) {
+        @media (max-width: 1250px) {
             grid-template-columns: 1fr 1fr 1fr;
         }
         @media (max-width: 1000px) {
