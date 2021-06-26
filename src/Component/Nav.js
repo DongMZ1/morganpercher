@@ -47,6 +47,10 @@ const Nav = ({innerWidth}) =>{
     }, [innerWidth]);
 
     const closemenusmallerthan750 = () =>{
+      if(innerWidth >= 1000){
+        //setshowpressicon(false);
+        setshowothericons(false);
+    }
         if(innerWidth < 1000){
             setshowpressicon(false);
             setshowothericons(false);

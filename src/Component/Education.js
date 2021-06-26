@@ -15,7 +15,7 @@ const Education = () => {
 
   <div class="entry">
     <div class="title">
-      <h3 data-aos="fade-right">2015 - 2016</h3>
+      <h4 data-aos="fade-right">2015 - 2016</h4>
     </div>
     <div class="body" data-aos="fade-left">
       <ul>
@@ -29,7 +29,7 @@ const Education = () => {
 
  <div class="entry">
     <div class="title">
-      <h3 data-aos="fade-right">2013 - 2015</h3>
+      <h4 data-aos="fade-right">2013 - 2015</h4>
     </div>
     <div class="body" data-aos="fade-left">
       <ul>
@@ -43,7 +43,7 @@ const Education = () => {
 
   <div class="entry">
     <div class="title">
-      <h3 data-aos="fade-right">2012 - 2013</h3>
+      <h4 data-aos="fade-right">2012 - 2013</h4>
     </div>
     <div class="body" data-aos="fade-left">
       <ul>
@@ -58,7 +58,7 @@ const Education = () => {
 
   <div class="entry">
     <div class="title">
-      <h3 data-aos="fade-right">2011 - 2012</h3>
+      <h4 data-aos="fade-right">2011 - 2012</h4>
     </div>
     <div class="body" data-aos="fade-left">
       <ul>
@@ -72,7 +72,7 @@ const Education = () => {
 
   <div class="entry">
     <div class="title">
-      <h3 data-aos="fade-right">2011</h3>
+      <h4 data-aos="fade-right">2011</h4>
     </div>
     <div class="body" data-aos="fade-left">
       <ul>
@@ -86,7 +86,7 @@ const Education = () => {
 
   <div class="entry">
     <div class="title">
-      <h3 data-aos="fade-right">2011</h3>
+      <h4 data-aos="fade-right">2011</h4>
     </div>
     <div class="body" data-aos="fade-left">
       <ul>

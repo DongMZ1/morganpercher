@@ -10,16 +10,16 @@ const Footer = () => {
       data-aos-easing="linear"
       data-aos-duration="1500"
     >
-      <h7>
+      <h6>
         morgan.percher@gmail.com
         <a href="https://www.linkedin.com/in/morgan-percher-b78190170/">
           <AiOutlineLinkedin style={{fontSize: '35px'}} />
         </a>
-      </h7>
-      <h7>514-231-3140</h7>
-      <h7>Montréal</h7>
-      <h7>©2021 par Morgan Percher</h7>
-      <h7>design and build by Mingzhou Dong</h7>
+      </h6>
+      <h6>514-231-3140</h6>
+      <h6>Montréal</h6>
+      <h6>©2021 par Morgan Percher</h6>
+      <h6>design and build by Mingzhou Dong</h6>
     </div>
   );
 };

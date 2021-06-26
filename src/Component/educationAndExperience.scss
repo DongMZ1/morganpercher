@@ -15,7 +15,7 @@ $dot-diameter: 8px;
     top: 0px;
     left:calc(36% + 15px);
     bottom: 0px;
-    width: 4px;
+    width: 2px;
     background: black;
   }
   &:after {
@@ -30,7 +30,7 @@ $dot-diameter: 8px;
   text-align: left;
   position: relative;
   .title {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     float: left;
     width: 36%;
     padding-right: $gutter;
@@ -41,24 +41,25 @@ $dot-diameter: 8px;
       position: absolute;
       width: 20px;
       height: 20px;
-      border: 4px solid black;
+      border: 2px solid black;
       background-color:#fff;
       border-radius:100%;
       top: 15%;
-      right: -27px;
+      right: -26px;
       z-index: 2;
     }
     p {
       font-size: 16px;
     }
     h5 {
+      font-size: 110%;
       @media (max-width: 600px) {
         font-size: 18px;
       }
     }
   }
   .body {
-    margin: 0 0 5em;
+    margin: 0 0 3em;
     float: right;
     width: 63%;
     padding-left: $gutter;
