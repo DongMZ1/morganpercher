@@ -3,7 +3,7 @@
     "item1": "Presentation",
     "item2": "Press Relation",
     "item3": "Communication Media",
-    "item4": "Writing",
+    "item4": "Published articles",
     "item5": "EVENT ORGANIZATION",
     "item6": "Professional experiences",
     "item7": "Education"
@@ -43,12 +43,13 @@
     "item18":"Mézières-Ecluzelles water body health check",
     "item19":"crisis communication following the pollution of a water body in the agglomeration. Urgently drafting of the press kit in order to reassure the population, after consultation with experts and elected officials on the subject.",
     "item20":"A video Report by the media BRUT",
-    "item21":"a refuge for goldfish at the Paris Aquarium. A great example of the many press coverage from the following press release. This subject, which I decided to deal with during a no news period, created a national and international buzz. We achieved no less than 254 media coverage in 1 month, compared to an average of 52 for the other months. The numerous videos, numerous articles and publications have significantly increased the number of visitors to the aquarium during this period.",
+    "item21":"a refuge for goldfish at the Paris Aquarium. A great example of the many press coverage from the following press release. This subject, which I decided to deal with during a no news period, created a national and international buzz. We achieved no less than 254 media coverage in 1 month, compared to an average of 52 for the other months. The numerous videos, articles and publications have significantly increased the number of visitors to the aquarium during this period.",
     "title1":"Press release",
     "title2":"Press Kit",
     "contenttitle":"Company"
   },
   "communication":{
+    "title":"Communication media",
     "company":"Company: ",
     "project":"Project: ",
     "item1":"CREATION OF COMMUNICATION MEDIA",
@@ -96,7 +97,7 @@
     "item35":"I have been entrusted with the task of writing and laying out the elements of this brochure."
   },
   "writing":{
-    "title":"WRITING",
+    "title":"Published articles",
     "article":"Read the article on the website",
     "company":"Company: ",
     "project":"Project: ",
@@ -105,9 +106,9 @@
     "m1":"Writing articles",
     "m2":"Interviews",
     "m3":"Research",
-    "m4":"Taking a photograph",
+    "m4":"Photography",
 
-    "item1a":"BIG REPORT",
+    "item1a":"Regional article – 6 pages",
     "item1b":"Agglomération du Pays de Dreux",
     "item1c":"ideas for un unusual summer",
     "item1d":"production of a major summer report for the magazine, 6 pages on unusual tourist ideas for discovering the region. I had to find the concept, seek / contact the speakers, carry out the interviews, take the photographs and write the articles.",

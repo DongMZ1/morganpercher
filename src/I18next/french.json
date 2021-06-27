@@ -5,7 +5,7 @@
     "item3": "Supports de communication",
     "item4": "Rédaction",
     "item5": "Organisation d'évènements",
-    "item6": "Expériences professionnelles",
+    "item6": "Professional experiences",
     "item7": "Formation"
   },
   "presentation": {
@@ -49,6 +49,7 @@
     "contenttitle":"Entreprise"
   },
   "communication":{
+    "title":"Supports de communication",
     "company":"Entreprise: ",
     "project":"Projet: ",
     "item1":"CRÉATION DE SUPPORTS DE COMMUNICATION",
@@ -105,8 +106,8 @@
     "m1":"Rédaction d'articles",
     "m2":"Interviews",
     "m3":"Recherche",
-    "m4":"Prise de photographie",
-    "item1a":"GRAND REPORTAGE",
+    "m4":"Photographie",
+    "item1a":"Photographie",
     "item1b":"Agglomération du Pays de Dreux",
     "item1c":"un été insolite dans l'Agglomération du Pays de Dreux",
     "item1d":"réalisation d'un grand reportage estival pour le magazine, 6 pages sur les idées touristiques insolites pour découvrir la région. J'ai été amené à trouver le concept, chercher/contacter les intervenants, réaliser les interviews, prendre les photographies et rédiger les articles.",
@@ -172,7 +173,7 @@
 
     "item1a":"SOIRÉE DE LANCEMENT DE LA NOUVELLE APPLICATION MOBILE",
     "item1b":"AXA Entreprise",
-    "item1c":"organisation de l'évènement, du concept à la gestion sur place. Réflexion sur l'animation, logistique audiovisuelle pour filmer l'évènement, location de La Cité de l'Architecture et du Patrimoine à Paris. Gestion des prestataires tel que le traiteur, l'agence de location du mobilier décoratif et de l'agence des hôtesses",
+    "item1c":"organisation de l'évènement, du concept à la gestion sur place. Réflexion sur l'animation, logistique audiovisuelle pour filmer l'évènement, location de La Cité de l'Architecture et du Patrimoine à Paris. Gestion des prestataires tels que le traiteur, l'agence de location du mobilier décoratif et de l'agence des hôtesses",
 
     "item2a":"SALON DE L'INNOVATION NORMANDE",
     "item2b":"Transdev Rouen",
@@ -183,7 +184,7 @@
     "item3c":"organisation de la présence du projet Rouen Normandy Autonomous Lab lors de l'évènement au parc des expositions de Caen. Du concept du stand à la gestion sur place. Création de goodies promotionnels, mise en place d'un sondage, logistique de l'évènement, transport d'une voiture électrique entre Paris et Caen. Réflexion sur l'animation du stand, négociation de l'emplacement et du matériel disponible. Relation avec les partenaires. Gestion du personnel, hébergement et planning.",
 
     "item4a":"JOURNÉE MONDIALE DES OCÉANS",
-    "item4b":"recherche des intervenants, planification des interventions, vérification des sujets, préparation du matériel, gestion du parcours client, promotion de l'évènement, invitation des journalistes et partenaires institutionnelles",
+    "item4b":"recherche des intervenants, planification des interventions, vérification des sujets, préparation du matériel, gestion du parcours client, promotion de l'évènement, invitation des journalistes et partenaires institutionnels",
     "item4c":"En vidéo:  ",
     "item4d":"Interviews des intervenants de la Journée Mondiale des Océans",
     "item4e":"Vidéo réalisée après avoir interviewé l'ensemble des intervenants de l'évènement : ",
@@ -194,7 +195,7 @@
   },
 
   "edu":{
-      "title":"Expériences professionnelles ",
+      "title":"Professional experiences",
       "school":"Etablissement: ",
       "degree":"Diplôme: ",
       "study":"Domaine d’études: ",
