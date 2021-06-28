@@ -9,7 +9,7 @@ const Education = () => {
 
 <div class="entry">
     <div class="body" data-aos="fade-left">
-     <h1>Formation</h1>
+     <h1>{translate("nav.item7")}</h1>
     </div>
   </div>
 
@@ -51,21 +51,6 @@ const Education = () => {
         <li><b>{translate("edu.degree")}</b>{translate("edu.item3b")}</li>
         <li><b>{translate("edu.study")}</b>{translate("edu.item3c")}</li>
         <li><b>{translate("edu.result")}</b>{translate("edu.item3d")}</li>
-      </ul>
-    </div>
-  </div>
-
-
-  <div class="entry">
-    <div class="title">
-      <h4 data-aos="fade-right">2011 - 2012</h4>
-    </div>
-    <div class="body" data-aos="fade-left">
-      <ul>
-        <li><b>{translate("edu.school")}</b>{translate("edu.item4a")}</li>
-        <li><b>{translate("edu.degree")}</b>{translate("edu.ite4b")}</li>
-        <li><b>{translate("edu.study")}</b>{translate("edu.item4c")}</li>
-        <li><b>{translate("edu.result")}</b>{translate("edu.item4d")}</li>
       </ul>
     </div>
   </div>

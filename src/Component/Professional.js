@@ -1,9 +1,15 @@
 import React from 'react'
 import '../SCSS/main.scss'
 import { useTranslation } from "react-i18next";
+import agglo from '../professionals/Agglo.png';
+import aquarium from '../professionals/Aquarium.png';
+import ocearium from '../professionals/Ocearium.jpg';
+import quebec from '../professionals/Quebec.png';
+import trannsdev from '../professionals/Trannsdev.png'
+
 const Professtional = () =>{
     const [translate, i18n] = useTranslation();
-    return <div className='education' id='prefessional'>
+    return <div style={{color:'blue'}} className='education' id='prefessional'>
 
 <div className="entry">
     <div class="body" data-aos="fade-left">
@@ -14,6 +20,7 @@ const Professtional = () =>{
   <div className="entry">
     <div className="title">
       <h5 data-aos="fade-right"><b>{translate("exper.job")}</b>{translate("exper.item1a")}</h5>
+      <img src={quebec} />
       <h5 data-aos="fade-right"><b>{translate("exper.company")}</b>{translate("exper.item1b")}</h5>
       <h5 data-aos="fade-right"><b>Dates : </b>{translate("exper.item1c")}</h5>
     </div>
@@ -27,6 +34,7 @@ const Professtional = () =>{
  <div class="entry">
     <div class="title">
       <h5 data-aos="fade-right"><b>{translate("exper.job")}</b>{translate("exper.item2a")}</h5>
+      <img src={ocearium} />
       <h5 data-aos="fade-right"><b>{translate("exper.company")}</b>{translate("exper.item2b")}</h5>
       <h5 data-aos="fade-right"><b>Dates : </b>{translate("exper.item2c")}</h5>
       <h5 data-aos="fade-right"><b>{translate("exper.duration")}</b>{translate("exper.item2d")}</h5>
@@ -49,6 +57,7 @@ const Professtional = () =>{
   <div class="entry">
     <div class="title">
       <h5 data-aos="fade-right"><b>{translate("exper.job")}</b>{translate("exper.item3a")}</h5>
+      <img src={trannsdev} />
       <h5 data-aos="fade-right"><b>{translate("exper.company")}</b>{translate("exper.item3b")}</h5>
       <h5 data-aos="fade-right"><b>Dates : </b>{translate("exper.item3c")}</h5>
       <h5 data-aos="fade-right"><b>{translate("exper.duration")}</b>{translate("exper.item3d")}</h5>
@@ -67,6 +76,7 @@ const Professtional = () =>{
   <div class="entry">
     <div class="title">
       <h5 data-aos="fade-right"><b>{translate("exper.job")}</b>{translate("exper.item4a")}</h5>
+      <img src={aquarium} />
       <h5 data-aos="fade-right"><b>{translate("exper.company")}</b>{translate("exper.item4b")}</h5>
       <h5 data-aos="fade-right"><b>Dates : </b>{translate("exper.item4c")}</h5>
       <h5 data-aos="fade-right"><b>{translate("exper.duration")}</b>{translate("exper.item4d")}</h5>
@@ -86,6 +96,7 @@ const Professtional = () =>{
   <div class="entry">
     <div class="title">
       <h5 data-aos="fade-right"><b>{translate("exper.job")}</b>{translate("exper.item5a")}</h5>
+      <img src={agglo} />
       <h5 data-aos="fade-right"><b>{translate("exper.company")}</b>{translate("exper.item5b")}</h5>
       <h5 data-aos="fade-right"><b>Dates : </b>{translate("exper.item5c")}</h5>
       <h5 data-aos="fade-right"><b>{translate("exper.duration")}</b>{translate("exper.item5d")}</h5>

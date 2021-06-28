@@ -30,6 +30,13 @@ $dot-diameter: 8px;
   text-align: left;
   position: relative;
   .title {
+    img{
+      width: 15vw;
+      padding-right: 3vw;
+      @media (max-width:600px) {
+        width: 25vw;
+      }
+    }
     margin-bottom: 3em;
     float: left;
     width: 36%;

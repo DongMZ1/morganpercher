@@ -36,8 +36,7 @@ body{
         align-items: flex-start;
         padding-top: 5px;
         padding-bottom: 5px;
-        height: auto;
-        display: flex;
+        height: min-content;
         flex-direction: column;
         position: fixed;
     }
@@ -47,12 +46,12 @@ body{
         position: absolute;
         width: max-content;
         background-color: white;
-        padding: 10px 10px 0px 10px;
+        padding: 0px 10px 0px 10px;
+        height: min-content;
         @media (max-width:1000px) {
-            position: relative;
+            position:initial;
             background-color: transparent;
             padding: 0px;
-            width:auto;
         }
         }
      }

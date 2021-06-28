@@ -95,12 +95,13 @@ const Nav = ({innerWidth}) =>{
          to='writingorgan' spy={true} smooth={true} duration={100}>
        {translate("nav.item4")}
        </Link>
-
+       
        <Link onClick={closemenusmallerthan750} className="naviicon"
         style={{textDecoration:'none'}}
          to='event' spy={true} smooth={true} duration={100}>
        {translate("nav.item5")}
        </Link>
+      
        </div>
        </CSSTransition>
        </div>
