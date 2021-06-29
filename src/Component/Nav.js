@@ -7,6 +7,7 @@ import {HiPresentationChartBar} from 'react-icons/hi'
 import {Link} from 'react-scroll'
 import { useTranslation } from 'react-i18next';
 import { CSSTransition } from 'react-transition-group'
+import CV from '../CV.pdf'
 
 
 
@@ -71,7 +72,7 @@ const Nav = ({innerWidth}) =>{
          {translate("nav.item1")}
          </Link>}
 
-       <div className='outerdropdownwrapper'>
+       <span className='outerdropdownwrapper'>
 
        <div onClick={()=>setshowothericons(state => !state)}
        className='pressdropdown'><HiPresentationChartBar /></div>
@@ -104,7 +105,7 @@ const Nav = ({innerWidth}) =>{
       
        </div>
        </CSSTransition>
-       </div>
+       </span>
      
        
        {showpressicons && <>
@@ -121,7 +122,7 @@ const Nav = ({innerWidth}) =>{
        {translate("nav.item7")}
        </Link>
 
-       <div className='translator' >CV</div>
+       <a style={{textDecoration:'none'}} href={CV}><div className='translator' >CV</div></a>
        <a href='https://www.linkedin.com/in/morgan-percher-b78190170/'>
          <AiOutlineLinkedin className='linkedinicon' fontSize='35px' /></a>
        <div onClick={changelang} className='translator' >{langisfr? 'En':'Fr'}</div>
