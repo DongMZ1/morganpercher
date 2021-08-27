@@ -9,7 +9,7 @@ import trannsdev from '../professionals/Trannsdev.png'
 
 const Professtional = () =>{
     const [translate, i18n] = useTranslation();
-    return <div style={{color:'blue'}} className='education' id='prefessional'>
+    return <div className='education' id='prefessional'>
 
 <div className="entry">
     <div class="body" data-aos="fade-left">

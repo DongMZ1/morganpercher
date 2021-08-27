@@ -2,161 +2,155 @@
 @import "card.scss";
 @import "navitem.scss";
 @import "transtiongroup.scss";
-@import '../Component/presentation.scss';
-@import '../Component/communication.scss';
-@import '../Component/educationAndExperience.scss';
-@import '../Component/pressrelation.scss';
-@import '../Component/writingorgan.scss';
-@import '../Component/footer.scss';
-@import '../Component/event.scss';
+@import "../Component/presentation.scss";
+@import "../Component/communication.scss";
+@import "../Component/educationAndExperience.scss";
+@import "../Component/pressrelation.scss";
+@import "../Component/writingorgan.scss";
+@import "../Component/footer.scss";
+@import "../Component/event.scss";
+@import "../Component/twovideo.scss";
 
-
-body{
-    background-color: #fffffe;    
+body {
+  background-color: #fffffe;
 }
 
-
-.navb{
-    user-select: none;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: #fffffe;
-    top: 0px;
+.navb {
+  user-select: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fffffe;
+  top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 3vw;
+  padding-left: 1vw;
+  z-index: 3;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  font-family: "Playfair Display", sans-serif;
+  width: 100vw;
+  @media (max-width: 1000px) {
+    padding-left: 30px;
+    align-items: flex-start;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 3vw;
-    padding-left: 1vw;
-    z-index: 3;
+    height: min-content;
+    flex-direction: column;
     position: fixed;
-    align-items: center;
-    display: flex;
-    font-family: 'Playfair Display', sans-serif;
-    width: 100vw;
-    @media (max-width: 1000px) {
-        padding-left: 30px;
-        align-items: flex-start;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        height: min-content;
-        flex-direction: column;
-        position: fixed;
-    }
-    .outerdropdownwrapper{
+  }
+  .outerdropdownwrapper {
+    position: relative;
+    .dropdownwrapper {
+      display: flex;
+      border-radius: 10px;
+      align-items: flex-start;
+      flex-direction: column;
+      position: absolute;
+      width: max-content;
+      background-color: white;
+      padding: 0px 10px 0px 10px;
+      height: min-content;
+      @media (max-width: 1000px) {
+        border-top: 2px skyblue solid;
+        border-bottom: 2px skyblue solid;
         position: relative;
-        .dropdownwrapper{
-        position: absolute;
-        width: max-content;
-        background-color: white;
-        padding: 0px 10px 0px 10px;
-        height: min-content;
-        @media (max-width:1000px) {
-            border-top: 2px skyblue solid;
-            border-bottom: 2px skyblue solid;
-            position:relative;
-            background-color: transparent;
-            padding: 0px;
-        }
-        }
-     }
-    .naviicon{
-        color: skyblue;
-        border: 2px transparent solid;
-        font-weight: 600;
-        font-size: 18px;
-        text-transform: uppercase;
-        &::after {
-            content: '';
-            display: block;
-            width: 0;
-            height: 2px;
-            background: skyblue;
-            transition: all .3s;
-        }
-        &:hover{
-          &::after{
-            background-color: blue;
-            width: 100%;  
-          }
-          color: blue;
-        }
-        
+        background-color: transparent;
+        padding: 0px;
+      }
     }
-    .navbmenu{
-        font-family: 'Playfair Display';
-        color: skyblue;
-        display: none;
-        background-color: #fffffe;
-        font-size: 45px;
-        @media (max-width: 1000px) {
-                display: flex;
-        }
+  }
+  .naviicon {
+    color: skyblue;
+    border: 2px transparent solid;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    &::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: skyblue;
+      transition: all 0.3s;
     }
+    &:hover {
+      &::after {
+        background-color: blue;
+        width: 100%;
+      }
+      color: blue;
+    }
+  }
+  .navbmenu {
+    font-family: "Playfair Display";
+    color: skyblue;
+    display: none;
+    background-color: #fffffe;
+    font-size: 45px;
+    @media (max-width: 1000px) {
+      display: flex;
+    }
+  }
 
-    .pressdropdown{
-        font-family: 'Playfair Display';
-        color: skyblue;
-        background-color: white;
-        text-align: center;
-        font-size: 35px;
-        padding-bottom: 8px;
-        &:hover{
-            color: blue;
-        }
-        @media (max-width: 1000px) {
-            display: none;
-        }
+  .pressdropdown {
+    font-family: "Playfair Display";
+    color: skyblue;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 8px;
+    &:hover {
+      color: blue;
     }
-    & >*{
-        cursor: pointer;
-        margin-left: 0.5vw;
-        margin-right: 0.5vw;
+    @media (max-width: 1000px) {
+      display: none;
     }
+  }
+  & > * {
+    cursor: pointer;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+  }
 
-    @keyframes movetranslator {
-        0%{
-            transform: translateY(0%);
-        }
-        30%{
-            transform: translateY(20%);
-        }
-        60%{
-            transform: translateY(-10%);
-        }
-        100%{
-            transform: translateY(0%);
-        }
+  @keyframes movetranslator {
+    0% {
+      transform: translateY(0%);
     }
+    30% {
+      transform: translateY(20%);
+    }
+    60% {
+      transform: translateY(-10%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
 
-    .translator{
-        //cursor: pointer;
-        font-weight: bold;
-        color: #8cb6ec;
-        font-size: 26px;
-        @media (max-width: 1250px) {
-            margin-left: 10px;
-        }
-        &:hover{
-            content: 'French';
-            color: blue;
-            animation: movetranslator 0.5s 1;
-        }
+  .translator {
+    //cursor: pointer;
+    font-weight: bold;
+    color: #8cb6ec;
+    font-size: 26px;
+    @media (max-width: 1250px) {
+      margin-left: 10px;
     }
-    .linkedinicon{
-        //cursor: pointer;
-        color: #8cb6ec;
-        &:hover{
-            color: blue;
-            animation: movetranslator 0.5s 1;
-        }
+    &:hover {
+      content: "French";
+      color: blue;
+      animation: movetranslator 0.5s 1;
     }
+  }
+  .linkedinicon {
+    //cursor: pointer;
+    color: #8cb6ec;
+    @media (max-width: 1250px) {
+      margin-left: 6px;
+    }
+    &:hover {
+      color: blue;
+      animation: movetranslator 0.5s 1;
+    }
+  }
 }
-
-
-
-
-
-
-
-
-
-
-

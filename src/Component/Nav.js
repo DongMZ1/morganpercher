@@ -123,8 +123,10 @@ const Nav = ({innerWidth}) =>{
        </Link>
 
        <a style={{textDecoration:'none'}} href={CV}><div className='translator' >CV</div></a>
+       <div>
        <a href='https://www.linkedin.com/in/morgan-percher-b78190170/'>
          <AiOutlineLinkedin className='linkedinicon' fontSize='35px' /></a>
+         </div>
        <div onClick={changelang} className='translator' >{langisfr? 'En':'Fr'}</div>
 
        </>}
